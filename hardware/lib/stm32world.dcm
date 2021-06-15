@@ -1,0 +1,20 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TS-1088R-02526
+D Tactile Switch
+F https://datasheet.lcsc.com/szlcsc/1912111437_XUNPU-TS-1088R-02526_C455281.pdf
+$ENDCMP
+#
+$CMP USB_C_Receptacle_USB2.0
+D USB 2.0-only Type-C Receptacle connector
+K usb universal serial bus type-C USB2.0
+F 1811131825_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.pdf
+$ENDCMP
+#
+$CMP WS2812C-2020
+D RGB LED with integrated controller
+K RGB LED NeoPixel addressable
+F https://ipfs-pin.com/ipfs/QmUrWWQTAtUDvCNqULeBaKaw2HwTcne6zNz3L68ZhahRnx/WS2812C-2020_361_V1.0_EN_20031610354448.pdf
+$ENDCMP
+#
+#End Doc Library
