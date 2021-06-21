@@ -1,0 +1,16 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# STM32WORLD_BASE-stm32world
+#
+DEF STM32WORLD_BASE-stm32world J 0 40 Y Y 1 F N
+F0 "J" 0 0 50 H V C CNN
+F1 "STM32WORLD_BASE-stm32world" 0 0 50 H V C CNN
+F2 "stm32world:STM32WORLD_BASE" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+X V3.3 1 -250 -150 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
