@@ -1,5 +1,4 @@
 (sym_lib_table
   (lib (name stm32world)(type Legacy)(uri /home/lth/src/stm32world/hardware/lib/stm32world.lib)(options "")(descr ""))
   (lib (name stm32dev)(type Legacy)(uri /home/lth/src/stm32dev/pcb/stm32dev.lib)(options "")(descr ""))
-  (lib (name mcuf405-rescue)(type Legacy)(uri ${KIPRJMOD}/mcuf405-rescue.lib)(options "")(descr ""))
 )
