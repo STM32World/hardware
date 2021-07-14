@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name stm32dev)(type KiCad)(uri /home/lth/src/stm32dev/pcb/stm32dev.pretty)(options "")(descr ""))
-  (lib (name stm32world)(type KiCad)(uri /home/lth/src/stm32world/hardware/lib/stm32world.pretty)(options "")(descr ""))
-)
