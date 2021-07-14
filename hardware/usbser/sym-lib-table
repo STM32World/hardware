@@ -1,3 +1,5 @@
 (sym_lib_table
   (lib (name stm32world)(type Legacy)(uri ${KIPRJMOD}/../lib/stm32world.lib)(options "")(descr ""))
+  (lib (name lifeline)(type Legacy)(uri /home/lth/src/lifeline/pcb/lifeline.lib)(options "")(descr ""))
+  (lib (name fk)(type Legacy)(uri /home/lth/src/fidokey/pcb/fk.lib)(options "")(descr ""))
 )
