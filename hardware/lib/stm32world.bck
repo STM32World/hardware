@@ -6,15 +6,39 @@ K linear regulator ldo fixed positive obsolete
 F https://datasheet.lcsc.com/lcsc/1811142212_Advanced-Monolithic-Systems-AMS1117-3-3_C6186.pdf
 $ENDCMP
 #
-$CMP C
+$CMP C_100NF_0603
 D Unpolarized capacitor
 K cap capacitor
 F ~
 $ENDCMP
 #
-$CMP C_100NF_0603
+$CMP C_10UF_0805
 D Unpolarized capacitor
 K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP C_1UF_0603
+D Unpolarized capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP C_20PF_0603
+D Unpolarized capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP R
+D Resistor
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP R_22_0603
+D Resistor
+K R res resistor
 F ~
 $ENDCMP
 #

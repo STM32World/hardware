@@ -12,6 +12,72 @@ K cap capacitor
 F ~
 $ENDCMP
 #
+$CMP C_10UF_0805
+D Unpolarized capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP C_1UF_0603
+D Unpolarized capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP C_2.2UF_0603
+D Unpolarized capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP C_20PF_0603
+D Unpolarized capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP LED_BLUE_0603
+D Light emitting diode
+K LED diode
+F ~
+$ENDCMP
+#
+$CMP LED_GREEN_0603
+D Light emitting diode
+K LED diode
+F ~
+$ENDCMP
+#
+$CMP LED_RED_0603
+D Light emitting diode
+K LED diode
+F ~
+$ENDCMP
+#
+$CMP R_10K_0603
+D Resistor
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP R_220_0603
+D Resistor
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP R_22_0603
+D Resistor
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP R_5.1K_0603
+D Resistor
+K R res resistor
+F ~
+$ENDCMP
+#
 $CMP TS-1088R-02526
 D Tactile Switch
 F https://datasheet.lcsc.com/szlcsc/1912111437_XUNPU-TS-1088R-02526_C455281.pdf
@@ -27,6 +93,12 @@ $CMP WS2812C-2020
 D RGB LED with integrated controller
 K RGB LED NeoPixel addressable
 F https://ipfs-pin.com/ipfs/QmUrWWQTAtUDvCNqULeBaKaw2HwTcne6zNz3L68ZhahRnx/WS2812C-2020_361_V1.0_EN_20031610354448.pdf
+$ENDCMP
+#
+$CMP X_16MHZ
+D Four pin crystal, GND on pins 2 and 4
+K quartz ceramic resonator oscillator
+F https://datasheet.lcsc.com/szlcsc/Yangxing-Tech-X322516MLB4SI_C13738.pdf
 $ENDCMP
 #
 #End Doc Library
