@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name stm32world)(type Legacy)(uri ${KIPRJMOD}/../lib/stm32world.lib)(options "")(descr ""))
+  (lib (name st-link)(type Legacy)(uri /home/lth/src/st-link/pcb/st-link.lib)(options "")(descr ""))
 )
