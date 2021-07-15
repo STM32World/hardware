@@ -10,4 +10,10 @@ $CMP AW9523B
 D 16 MULTI-FUNCTION LED DRIVER AND GPIO
 $ENDCMP
 #
+$CMP X_8MHZ
+D Two pin crystal
+K quartz ceramic resonator oscillator
+F ~
+$ENDCMP
+#
 #End Doc Library
