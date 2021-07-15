@@ -78,6 +78,12 @@ K R res resistor
 F ~
 $ENDCMP
 #
+$CMP SRV05-4
+D ESD Protection Diodes with Low Clamping Voltage, SOT-23-6
+K ESD protection diodes
+F http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF
+$ENDCMP
+#
 $CMP TS-1088R-02526
 D Tactile Switch
 F https://datasheet.lcsc.com/szlcsc/1912111437_XUNPU-TS-1088R-02526_C455281.pdf
