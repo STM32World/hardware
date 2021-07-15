@@ -6,6 +6,13 @@ K linear regulator ldo fixed positive obsolete
 F https://datasheet.lcsc.com/lcsc/1811142212_Advanced-Monolithic-Systems-AMS1117-3-3_C6186.pdf
 $ENDCMP
 #
+$CMP AW9523B
+D 16 MULTI-FUNCTION LED DRIVER AND GPIO
+CONTROLLER WITH I2C INTERFACE
+K I2C
+F https://ipfs-pin.com/ipfs/QmQK9XdJ5D8aZySKUs2EvwPcv1q9PFZV9Ao15szbR2BAfK/AW9523B.pdf
+$ENDCMP
+#
 $CMP C_100NF_0603
 D Unpolarized capacitor
 K cap capacitor
