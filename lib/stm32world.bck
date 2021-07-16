@@ -6,57 +6,26 @@ K linear regulator ldo fixed positive obsolete
 F https://datasheet.lcsc.com/lcsc/1811142212_Advanced-Monolithic-Systems-AMS1117-3-3_C6186.pdf
 $ENDCMP
 #
-$CMP C_100NF_0603
-D Unpolarized capacitor
-K cap capacitor
+$CMP AW9523B
+D 16 MULTI-FUNCTION LED DRIVER AND GPIO
+$ENDCMP
+#
+$CMP W25Q128JVS
+D 128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8
+K flash memory SPI QPI DTR
+F http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf
+$ENDCMP
+#
+$CMP W25Q128JVSIQ
+D 32Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8
+K flash memory SPI
+F http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf
+$ENDCMP
+#
+$CMP X_8MHZ
+D Two pin crystal
+K quartz ceramic resonator oscillator
 F ~
-$ENDCMP
-#
-$CMP C_10UF_0805
-D Unpolarized capacitor
-K cap capacitor
-F ~
-$ENDCMP
-#
-$CMP C_1UF_0603
-D Unpolarized capacitor
-K cap capacitor
-F ~
-$ENDCMP
-#
-$CMP C_20PF_0603
-D Unpolarized capacitor
-K cap capacitor
-F ~
-$ENDCMP
-#
-$CMP R
-D Resistor
-K R res resistor
-F ~
-$ENDCMP
-#
-$CMP R_22_0603
-D Resistor
-K R res resistor
-F ~
-$ENDCMP
-#
-$CMP TS-1088R-02526
-D Tactile Switch
-F https://datasheet.lcsc.com/szlcsc/1912111437_XUNPU-TS-1088R-02526_C455281.pdf
-$ENDCMP
-#
-$CMP USB_C_Receptacle_USB2.0
-D USB 2.0-only Type-C Receptacle connector
-K usb universal serial bus type-C USB2.0
-F 1811131825_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.pdf
-$ENDCMP
-#
-$CMP WS2812C-2020
-D RGB LED with integrated controller
-K RGB LED NeoPixel addressable
-F https://ipfs-pin.com/ipfs/QmUrWWQTAtUDvCNqULeBaKaw2HwTcne6zNz3L68ZhahRnx/WS2812C-2020_361_V1.0_EN_20031610354448.pdf
 $ENDCMP
 #
 #End Doc Library

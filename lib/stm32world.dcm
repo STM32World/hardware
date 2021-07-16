@@ -10,6 +10,18 @@ $CMP AW9523B
 D 16 MULTI-FUNCTION LED DRIVER AND GPIO
 $ENDCMP
 #
+$CMP W25Q128JVS
+D 128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8
+K flash memory SPI QPI DTR
+F http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf
+$ENDCMP
+#
+$CMP W25Q128JVSIQ
+D 32Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8
+K flash memory SPI
+F http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf
+$ENDCMP
+#
 $CMP X_8MHZ
 D Two pin crystal
 K quartz ceramic resonator oscillator
