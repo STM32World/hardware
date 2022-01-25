@@ -1,0 +1,325 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L stm32world:STM32WORLD_BASE J1
+U 1 1 60F11DC5
+P 1750 3150
+F 0 "J1" H 1750 5423 50  0000 C CNN
+F 1 "~" H 1750 5424 50  0000 C CNN
+F 2 "stm32world:STM32WORLD_BASE" H 2450 750 50  0001 C CNN
+F 3 "" H 1750 5400 50  0001 C CNN
+	1    1750 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 60F1EC86
+P 2200 5350
+F 0 "#PWR0101" H 2200 5100 50  0001 C CNN
+F 1 "GND" H 2205 5177 50  0000 C CNN
+F 2 "" H 2200 5350 50  0001 C CNN
+F 3 "" H 2200 5350 50  0001 C CNN
+	1    2200 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 5350 2200 5250
+Wire Wire Line
+	2200 1050 2100 1050
+Wire Wire Line
+	2100 2850 2200 2850
+Connection ~ 2200 2850
+Wire Wire Line
+	2200 2850 2200 1050
+Wire Wire Line
+	2100 2950 2200 2950
+Connection ~ 2200 2950
+Wire Wire Line
+	2200 2950 2200 2850
+Wire Wire Line
+	2100 3350 2200 3350
+Connection ~ 2200 3350
+Wire Wire Line
+	2200 3350 2200 2950
+Wire Wire Line
+	2100 5150 2200 5150
+Connection ~ 2200 5150
+Wire Wire Line
+	2200 5150 2200 3350
+Wire Wire Line
+	2100 5250 2200 5250
+Connection ~ 2200 5250
+Wire Wire Line
+	2200 5250 2200 5150
+$Comp
+L power:+3.3V #PWR0102
+U 1 1 60F23E95
+P 1300 950
+F 0 "#PWR0102" H 1300 800 50  0001 C CNN
+F 1 "+3.3V" H 1315 1123 50  0000 C CNN
+F 2 "" H 1300 950 50  0001 C CNN
+F 3 "" H 1300 950 50  0001 C CNN
+	1    1300 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 950  1300 1050
+Wire Wire Line
+	1300 1050 1400 1050
+Wire Wire Line
+	1300 1050 1300 2850
+Wire Wire Line
+	1300 3350 1400 3350
+Connection ~ 1300 1050
+Wire Wire Line
+	1400 2850 1300 2850
+Connection ~ 1300 2850
+Wire Wire Line
+	1300 2850 1300 3350
+Wire Wire Line
+	1300 3350 1300 5150
+Wire Wire Line
+	1300 5150 1400 5150
+Connection ~ 1300 3350
+$Comp
+L Jumper:Jumper_2_Bridged JP1
+U 1 1 60FFE595
+P 1600 6500
+F 0 "JP1" H 1600 6603 50  0000 C CNN
+F 1 "~" H 1600 6604 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm" H 1600 6500 50  0001 C CNN
+F 3 "~" H 1600 6500 50  0001 C CNN
+	1    1600 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:Jumper_2_Open JP2
+U 1 1 61000DD5
+P 1600 6750
+F 0 "JP2" H 1600 6893 50  0000 C CNN
+F 1 "~" H 1600 6894 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 1600 6750 50  0001 C CNN
+F 3 "~" H 1600 6750 50  0001 C CNN
+	1    1600 6750
+	1    0    0    -1  
+$EndComp
+Text GLabel 2000 6500 2    50   Input ~ 0
+SCL
+Wire Wire Line
+	2000 6500 1900 6500
+Wire Wire Line
+	1800 6750 1900 6750
+Wire Wire Line
+	1900 6750 1900 6500
+Connection ~ 1900 6500
+Wire Wire Line
+	1900 6500 1800 6500
+Text GLabel 1300 6500 0    50   Input ~ 0
+I2C1_SCL
+Wire Wire Line
+	1200 3950 1400 3950
+Wire Wire Line
+	1300 6500 1400 6500
+$Comp
+L Jumper:Jumper_2_Bridged JP3
+U 1 1 6102489C
+P 3200 6500
+F 0 "JP3" H 3200 6603 50  0000 C CNN
+F 1 "~" H 3200 6604 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm" H 3200 6500 50  0001 C CNN
+F 3 "~" H 3200 6500 50  0001 C CNN
+	1    3200 6500
+	1    0    0    -1  
+$EndComp
+Text GLabel 3600 6500 2    50   Input ~ 0
+SDA
+Wire Wire Line
+	3600 6500 3500 6500
+Text GLabel 2900 6500 0    50   Input ~ 0
+I2C1_SDA
+Wire Wire Line
+	2900 6500 3000 6500
+Wire Wire Line
+	2300 3950 2100 3950
+Text GLabel 1300 6750 0    50   Input ~ 0
+I2C1_SCL_ALT
+Wire Wire Line
+	1300 6750 1400 6750
+Wire Wire Line
+	1400 3850 1200 3850
+Text GLabel 2900 6750 0    50   Input ~ 0
+I2C1_SDA_ALT
+$Comp
+L Jumper:Jumper_2_Open JP4
+U 1 1 61038DDE
+P 3200 6750
+F 0 "JP4" H 3200 6893 50  0000 C CNN
+F 1 "~" H 3200 6894 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 3200 6750 50  0001 C CNN
+F 3 "~" H 3200 6750 50  0001 C CNN
+	1    3200 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 6750 3000 6750
+Wire Wire Line
+	3400 6750 3500 6750
+Wire Wire Line
+	3500 6750 3500 6500
+Connection ~ 3500 6500
+Wire Wire Line
+	3500 6500 3400 6500
+Wire Wire Line
+	2300 3850 2100 3850
+Text GLabel 1200 3950 0    50   Input ~ 0
+I2C1_SCL
+Text GLabel 1200 3850 0    50   Input ~ 0
+I2C1_SCL_ALT
+Text GLabel 2300 3950 2    50   Input ~ 0
+I2C1_SDA
+Text GLabel 2300 3850 2    50   Input ~ 0
+I2C1_SDA_ALT
+$Comp
+L Jumper:Jumper_2_Open JP7
+U 1 1 61070F04
+P 1600 7000
+F 0 "JP7" H 1600 7143 50  0000 C CNN
+F 1 "~" H 1600 7144 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 1600 7000 50  0001 C CNN
+F 3 "~" H 1600 7000 50  0001 C CNN
+	1    1600 7000
+	1    0    0    -1  
+$EndComp
+Text GLabel 1300 7000 0    50   Input ~ 0
+I2C2_SCL
+Text GLabel 1200 2150 0    50   Input ~ 0
+I2C2_SCL
+$Comp
+L Jumper:Jumper_2_Open JP8
+U 1 1 61072336
+P 3200 7000
+F 0 "JP8" H 3200 7143 50  0000 C CNN
+F 1 "~" H 3200 7144 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 3200 7000 50  0001 C CNN
+F 3 "~" H 3200 7000 50  0001 C CNN
+	1    3200 7000
+	1    0    0    -1  
+$EndComp
+Text GLabel 2900 7000 0    50   Input ~ 0
+I2C2_SDA
+Text GLabel 2300 2150 2    50   Input ~ 0
+I2C2_SDA
+Wire Wire Line
+	1200 2150 1400 2150
+Wire Wire Line
+	2100 2150 2300 2150
+Wire Wire Line
+	3500 6750 3500 7000
+Wire Wire Line
+	3500 7000 3400 7000
+Connection ~ 3500 6750
+Wire Wire Line
+	2900 7000 3000 7000
+Wire Wire Line
+	1300 7000 1400 7000
+Wire Wire Line
+	1900 6750 1900 7000
+Wire Wire Line
+	1900 7000 1800 7000
+Connection ~ 1900 6750
+$Comp
+L stm32world:TCA6424ARGJR U1
+U 1 1 610F7B21
+P 5700 2650
+F 0 "U1" H 5700 3965 50  0000 C CNN
+F 1 "TCA6424ARGJR" H 5700 3874 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm" H 7150 1150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809191924_Texas-Instruments-TCA6424ARGJR_C80692.pdf" H 5700 3950 50  0001 C CNN
+F 4 "C80692" H 6100 1050 50  0001 C CNN "LCSC"
+	1    5700 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0103
+U 1 1 61102547
+P 5250 1500
+F 0 "#PWR0103" H 5250 1350 50  0001 C CNN
+F 1 "+3.3V" H 5265 1673 50  0000 C CNN
+F 2 "" H 5250 1500 50  0001 C CNN
+F 3 "" H 5250 1500 50  0001 C CNN
+	1    5250 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 61103644
+P 5250 4000
+F 0 "#PWR0104" H 5250 3750 50  0001 C CNN
+F 1 "GND" H 5255 3827 50  0000 C CNN
+F 2 "" H 5250 4000 50  0001 C CNN
+F 3 "" H 5250 4000 50  0001 C CNN
+	1    5250 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 1500 5250 1600
+Wire Wire Line
+	5250 1700 5350 1700
+Wire Wire Line
+	5350 1600 5250 1600
+Connection ~ 5250 1600
+Wire Wire Line
+	5250 1600 5250 1700
+Wire Wire Line
+	5250 1700 5250 2000
+Wire Wire Line
+	5250 2000 5350 2000
+Connection ~ 5250 1700
+Text GLabel 5250 2300 0    50   Input ~ 0
+SCL
+Text GLabel 5250 2400 0    50   Input ~ 0
+SDA
+Wire Wire Line
+	5350 2300 5250 2300
+Wire Wire Line
+	5250 2400 5350 2400
+Wire Wire Line
+	5350 3600 5250 3600
+Wire Wire Line
+	5250 3600 5250 3800
+Wire Wire Line
+	5350 3800 5250 3800
+Connection ~ 5250 3800
+Wire Wire Line
+	5250 3800 5250 3900
+Wire Wire Line
+	5350 3900 5250 3900
+Connection ~ 5250 3900
+Wire Wire Line
+	5250 3900 5250 4000
+$Comp
+L stm32world:TTP223E-HA6 U2
+U 1 1 6110BBE0
+P 7900 1150
+F 0 "U2" H 7900 1515 50  0000 C CNN
+F 1 "TTP223E-HA6" H 7900 1424 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 8450 800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810251711_Tontek-Design-Tech-TTP223E-HA6_C129459.pdf" H 7900 1100 50  0001 C CNN
+F 4 "C129459" H 8300 850 50  0001 C CNN "LCSC"
+	1    7900 1150
+	-1   0    0    -1  
+$EndComp
+$EndSCHEMATC

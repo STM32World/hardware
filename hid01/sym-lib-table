@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name stm32world)(type Legacy)(uri ${KIPRJMOD}/../lib/stm32world.lib)(options "")(descr ""))
+  (lib (name ioaw9523-rescue)(type Legacy)(uri ${KIPRJMOD}/ioaw9523-rescue.lib)(options "")(descr ""))
+)

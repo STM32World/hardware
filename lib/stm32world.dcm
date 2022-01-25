@@ -10,6 +10,14 @@ $CMP AW9523B
 D 16 MULTI-FUNCTION LED DRIVER AND GPIO
 $ENDCMP
 #
+$CMP TCA6424ARGJR
+F https://datasheet.lcsc.com/lcsc/1809191924_Texas-Instruments-TCA6424ARGJR_C80692.pdf
+$ENDCMP
+#
+$CMP TTP223E-HA6
+F https://datasheet.lcsc.com/lcsc/1810251711_Tontek-Design-Tech-TTP223E-HA6_C129459.pdf
+$ENDCMP
+#
 $CMP W25Q128JVS
 D 128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8
 K flash memory SPI QPI DTR
