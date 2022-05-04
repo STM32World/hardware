@@ -2,8 +2,13 @@
 <export version="E">
   <design>
     <source>/home/lth/src/stm32world_hardware/prgstl/prgstl.kicad_sch</source>
-    <date>Wed 04 May 2022 10:21:30 +08</date>
-    <tool>Eeschema 6.0.4+dfsg-1</tool>
+    <date>Wed 04 May 2022 16:56:57 +08</date>
+    <tool>Eeschema 6.0.4+dfsg-1+b1</tool>
+    <textvar name="AUTHOR">Lars Boegild Thomsen</textvar>
+    <textvar name="AUTHOR_EMAIL">lth@stm32world.com</textvar>
+    <textvar name="COMPANY">STM32World</textvar>
+    <textvar name="REVISION">a</textvar>
+    <textvar name="TITLE">PRGSTL</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>PRGSTL</title>

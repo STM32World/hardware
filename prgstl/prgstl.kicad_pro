@@ -338,7 +338,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "unannotated": "error",
@@ -435,5 +435,11 @@
       ""
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "AUTHOR": "Lars Boegild Thomsen",
+    "AUTHOR_EMAIL": "lth@stm32world.com",
+    "COMPANY": "STM32World",
+    "REVISION": "a",
+    "TITLE": "PRGSTL"
+  }
 }

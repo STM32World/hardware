@@ -5,12 +5,12 @@
   (paper "A4")
 
   (title_block
-    (title "PRGSTL")
+    (title "${TITLE}")
     (date "2021-06-14")
-    (rev "a")
-    (company "STM32World")
-    (comment 1 "lth@stm32world.com")
-    (comment 2 "Lars Boegild Thomsen")
+    (rev "${REVISION}")
+    (company "${COMPANY}")
+    (comment 1 "${AUTHOR_EMAIL}")
+    (comment 2 "${AUTHOR}")
   )
 
   (lib_symbols
@@ -4588,8 +4588,8 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060f141a5)
     (property "Reference" "U1" (id 0) (at 30.48 21.59 0))
-    (property "Value" "AMS1117-3.3" (id 1) (at 39.37 21.59 0))
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2" (id 2) (at 34.29 20.32 0)
+    (property "Value" "" (id 1) (at 39.37 21.59 0))
+    (property "Footprint" "" (id 2) (at 34.29 20.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811142212_Advanced-Monolithic-Systems-AMS1117-3-3_C6186.pdf" (id 3) (at 36.83 31.75 0)
@@ -5988,7 +5988,7 @@
       (reference "R18") (unit 1) (value "R_4.7K_0603") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000060f141a5"
-      (reference "U1") (unit 1) (value "AMS1117-3.3") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
+      (reference "U1") (unit 1) (value "AMS1117-3.3``") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
     )
     (path "/00000000-0000-0000-0000-000061012542"
       (reference "U2") (unit 1) (value "STM32F103CBTx") (footprint "Package_QFP:LQFP-48_7x7mm_P0.5mm")
