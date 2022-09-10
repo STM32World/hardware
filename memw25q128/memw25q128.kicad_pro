@@ -428,6 +428,7 @@
     "AUTHOR_EMAIL": "lth@stm32world.com",
     "COMPANY": "STM32World",
     "REVISION": "a",
-    "TITLE": "MEMW25Q128"
+    "TITLE": "MEMW25Q128",
+    "URL": "https://stm32world.com/wiki/MEMW25Q128"
   }
 }

@@ -1,0 +1,5 @@
+Comment,Designator,Footprint,Display,LCSC
+"C_100NF_0603","C1","Capacitor_SMD:C_0603_1608Metric","100nF","C14663"
+"STM32WORLD_BASE","J1","stm32world:STM32WORLD_BASE"
+"~","JP1,JP2,JP3,JP4,JP5,JP6,JP7,JP8,JP9,JP10,JP11,JP12","Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+"W25Q128JVS","U1","Package_SO:SOIC-8_5.275x5.275mm_P1.27mm","","C97521"
