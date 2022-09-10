@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/lth/src/stm32world_hardware/prgstl/prgstl.kicad_sch</source>
-    <date>Fri 09 Sep 2022 23:58:17 +08</date>
+    <date>Sat 10 Sep 2022 18:48:40 +08</date>
     <tool>Eeschema 6.0.7+dfsg-1+b1</tool>
     <textvar name="AUTHOR">Lars Boegild Thomsen</textvar>
     <textvar name="AUTHOR_EMAIL">lth@stm32world.com</textvar>
