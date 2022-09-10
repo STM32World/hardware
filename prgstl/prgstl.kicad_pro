@@ -440,6 +440,7 @@
     "AUTHOR_EMAIL": "lth@stm32world.com",
     "COMPANY": "STM32World",
     "REVISION": "a",
-    "TITLE": "PRGSTL"
+    "TITLE": "PRGSTL",
+    "URL": "https://stm32world.com/wiki/PRGSTL"
   }
 }
