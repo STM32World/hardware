@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name stm32world)(type KiCad)(uri ${KIPRJMOD}/../lib/stm32world.pretty)(options "")(descr ""))
-)
