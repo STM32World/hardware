@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/lth/src/stm32world_hardware/mcustm32f446/mcustm32f446.kicad_sch</source>
-    <date>Sat 03 Sep 2022 22:10:28 +08</date>
+    <date>Mon 12 Sep 2022 16:57:17 +08</date>
     <tool>Eeschema 6.0.7+dfsg-1+b1</tool>
     <textvar name="AUTHOR">Lars Boegild Thomsen</textvar>
     <textvar name="COMPANY">STM32World</textvar>

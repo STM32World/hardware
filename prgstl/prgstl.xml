@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/lth/src/stm32world_hardware/prgstl/prgstl.kicad_sch</source>
-    <date>Sun 11 Sep 2022 09:21:04 +08</date>
+    <date>Mon 12 Sep 2022 16:59:49 +08</date>
     <tool>Eeschema 6.0.7+dfsg-1+b1</tool>
     <textvar name="AUTHOR">Lars Boegild Thomsen</textvar>
     <textvar name="AUTHOR_EMAIL">lth@stm32world.com</textvar>
@@ -1287,6 +1287,9 @@
     </library>
     <library logical="MCU_ST_STM32F1">
       <uri>/usr/share/kicad/symbols//MCU_ST_STM32F1.kicad_sym</uri>
+    </library>
+    <library logical="stm32world">
+      <uri>/home/lth/src/stm32world_hardware/prgstl/../lib/stm32world.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
