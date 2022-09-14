@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/lth/src/stm32world_hardware/mcustm32f405/mcustm32f405.kicad_sch</source>
-    <date>Wed 14 Sep 2022 16:01:02 +08</date>
+    <date>Wed 14 Sep 2022 17:44:57 +08</date>
     <tool>Eeschema 6.0.7+dfsg-1+b1</tool>
     <textvar name="AUTHOR">Lars Boegild Thomsen</textvar>
     <textvar name="AUTHOR_EMAIL">lth@stm32world.com</textvar>
