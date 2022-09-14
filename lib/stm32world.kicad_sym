@@ -2370,7 +2370,7 @@
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TS-1088R-02526" (id 1) (at 0 -2.54 0)
-      (effects (font (size 1.27 1.27)))
+      (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "stm32world:TS-1088R-02526" (id 2) (at 0 6.35 0)
       (effects (font (size 1.27 1.27)) hide)
