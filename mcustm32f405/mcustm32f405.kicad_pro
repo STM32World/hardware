@@ -48,8 +48,20 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        "silk_over_copper|135985238|76261476|2a134ab3-6275-4421-945b-c8f4bea31494|5b287e27-3884-4fa4-8023-32275b31ce8e",
+        "silk_over_copper|161385238|126938523|a0669899-5470-43ea-a529-f6722444bf9b|d6a20173-e8af-44fd-afab-3291a57eef98",
+        "silk_over_copper|190500000|106300000|c2fd4927-8431-4c85-b75d-1336c8306cc2|d6dc534e-6e8d-415a-9caa-ec4f0dc84478",
+        "silk_over_copper|190500000|96900000|c2fd4927-8431-4c85-b75d-1336c8306cc2|51469661-4062-44ed-b4f1-f2328dbe72e1",
+        "silk_overlap|116101904|88717380|1e292289-8870-4972-8061-c1319ab5a0dd|a191ed31-8906-4d89-86cf-70c1c0f91c5c"
+      ],
       "meta": {
         "version": 2
       },
@@ -97,7 +109,7 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.15239999999999998,
         "min_copper_edge_clearance": 0.01,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -105,13 +117,24 @@
         "min_microvia_drill": 0.09999999999999999,
         "min_silk_clearance": 0.0,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.19999999999999998,
+        "min_track_width": 0.15239999999999998,
         "min_via_annular_width": 0.049999999999999996,
         "min_via_diameter": 0.39999999999999997,
         "use_height_for_length_calcs": true
       },
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0,
+        0.2286,
+        0.3048,
+        0.381,
+        0.4572
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -317,7 +340,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "unannotated": "error",
@@ -339,7 +362,7 @@
     "classes": [
       {
         "bus_width": 12.0,
-        "clearance": 0.2,
+        "clearance": 0.1524,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -349,9 +372,9 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "track_width": 0.1524,
+        "via_diameter": 0.7,
+        "via_drill": 0.35,
         "wire_width": 6.0
       }
     ],
@@ -409,6 +432,18 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
-  "text_variables": {}
+  "sheets": [
+    [
+      "2136cdd5-671e-48f9-bc34-e71a72a40a1d",
+      ""
+    ]
+  ],
+  "text_variables": {
+    "AUTHOR": "Lars Boegild Thomsen",
+    "AUTHOR_EMAIL": "lth@stm32world.com",
+    "COMPANY": "STM32World",
+    "REVISION": "a",
+    "TITLE": "MCUSTM32F405",
+    "URL": "https://stm32world.com/wiki/MCUSTM32F405"
+  }
 }
