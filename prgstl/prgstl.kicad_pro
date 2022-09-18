@@ -56,10 +56,17 @@
         }
       ],
       "drc_exclusions": [
+        "silk_over_copper|135985238|76261476|08be7bf1-2cbe-434b-baec-792f432bdf9b|5951f5f1-db84-426e-961e-5fdb15353e41",
         "silk_over_copper|135985238|76261476|1e2692e8-14a8-44d8-9cab-98dc7bbd9d3f|efd60813-a598-4e54-9db9-8f83069ca30b",
+        "silk_over_copper|149502857|109863095|384c3718-640d-48e0-bae3-52f5546e2943|9b67ab7f-7f4d-4aff-98f7-2f616926b8e6",
+        "silk_over_copper|161385238|126938523|244fdaad-a030-4b36-80f8-69f7b08299f9|d1d9d8dc-ae2d-417a-812e-61f7a6c70738",
         "silk_over_copper|161385238|126938523|7d9b1e1a-3a6b-4d18-9153-705a47ea714c|1e01eb36-5672-48d9-a2ee-a8e8ff7df49a",
+        "silk_over_copper|190500000|106300000|cfca8461-e0f0-426a-b55b-67a645577017|9a6d01b3-3d51-4b7d-96b1-7944dc28b4b2",
         "silk_over_copper|190500000|106300000|f8567a80-f4fc-4683-8dcf-c63cd14e14d6|9a6d01b3-3d51-4b7d-96b1-7944dc28b4b2",
-        "silk_over_copper|190500000|96900000|f8567a80-f4fc-4683-8dcf-c63cd14e14d6|53e25655-9641-4a31-bb19-f7ed4c9ffdbe"
+        "silk_over_copper|190500000|96900000|cfca8461-e0f0-426a-b55b-67a645577017|53e25655-9641-4a31-bb19-f7ed4c9ffdbe",
+        "silk_over_copper|190500000|96900000|f8567a80-f4fc-4683-8dcf-c63cd14e14d6|53e25655-9641-4a31-bb19-f7ed4c9ffdbe",
+        "silk_overlap|176282380|115170000|98c43b6d-e610-4ffd-a043-24469de85a13|2923317f-c0be-41b8-a23d-4597723837b8",
+        "silk_overlap|176701428|115170000|98c43b6d-e610-4ffd-a043-24469de85a13|2923317f-c0be-41b8-a23d-4597723837b8"
       ],
       "meta": {
         "filename": "board_design_settings.json",
