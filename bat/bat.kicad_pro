@@ -2,7 +2,7 @@
   "board": {
     "design_settings": {
       "defaults": {
-        "board_outline_line_width": 0.049999999999999996,
+        "board_outline_line_width": 0.09999999999999999,
         "copper_line_width": 0.19999999999999998,
         "copper_text_italic": false,
         "copper_text_size_h": 1.5,
@@ -26,7 +26,7 @@
         "fab_text_size_v": 1.0,
         "fab_text_thickness": 0.15,
         "fab_text_upright": false,
-        "other_line_width": 0.09999999999999999,
+        "other_line_width": 0.15,
         "other_text_italic": false,
         "other_text_size_h": 1.0,
         "other_text_size_v": 1.0,
@@ -37,7 +37,7 @@
           "height": 1.524,
           "width": 1.524
         },
-        "silk_line_width": 0.12,
+        "silk_line_width": 0.15,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
@@ -49,14 +49,8 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        "silk_over_copper|130270238|71816476|0e249018-17e7-42b3-ae5d-5ebf3ae299ae|56b759b9-34e5-4c90-839c-59c5f32521df",
-        "silk_over_copper|130270238|71816476|0e249018-17e7-42b3-ae5d-5ebf3ae299ae|c3b1eed2-2a69-4d19-8917-00cd9fc7077c",
-        "silk_over_copper|155670238|122493523|13bbfffc-affb-4b43-9eb1-f2ed90a8a919|0520e117-3b47-4aed-a3e1-300e333d4754",
-        "silk_over_copper|155670238|122493523|13bbfffc-affb-4b43-9eb1-f2ed90a8a919|707e0d6d-2c7b-46f7-83c5-271ad6ef5498"
-      ],
+      "drc_exclusions": [],
       "meta": {
-        "filename": "board_design_settings.json",
         "version": 2
       },
       "rule_severities": {
@@ -99,32 +93,26 @@
         "zone_has_empty_net": "error",
         "zones_intersect": "error"
       },
-      "rule_severitieslegacy_courtyards_overlap": true,
-      "rule_severitieslegacy_no_courtyard_defined": false,
       "rules": {
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.0,
-        "min_copper_edge_clearance": 0.024999999999999998,
+        "min_copper_edge_clearance": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_silk_clearance": 0.0,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.15239999999999998,
+        "min_track_width": 0.19999999999999998,
         "min_via_annular_width": 0.049999999999999996,
         "min_via_diameter": 0.39999999999999997,
+        "solder_mask_clearance": 0.0,
+        "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
       },
-      "track_widths": [
-        0.0,
-        0.2286,
-        0.3048,
-        0.381,
-        0.4572
-      ],
+      "track_widths": [],
       "via_dimensions": [],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
@@ -331,7 +319,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "unannotated": "error",
@@ -345,14 +333,14 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "memw25q128.kicad_pro",
+    "filename": "bat.kicad_pro",
     "version": 1
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12.0,
-        "clearance": 0.1524,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -362,9 +350,9 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1524,
-        "via_diameter": 0.7,
-        "via_drill": 0.35,
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
         "wire_width": 6.0
       }
     ],
@@ -396,9 +384,9 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.25,
-      "pin_symbol_size": 0.0,
-      "text_offset_ratio": 0.08
+      "label_size_ratio": 0.375,
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.15
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
@@ -424,16 +412,9 @@
   },
   "sheets": [
     [
-      "b6270a28-e0d9-4655-a18a-03dbf007b940",
+      "1b44ab0d-861f-4308-b81e-ed5d4e7daee6",
       ""
     ]
   ],
-  "text_variables": {
-    "AUTHOR": "Lars Boegild Thomsen",
-    "AUTHOR_EMAIL": "lth@stm32world.com",
-    "COMPANY": "STM32World",
-    "REVISION": "a",
-    "TITLE": "MEMW25Q128",
-    "URL": "https://stm32world.com/wiki/MEMW25Q128"
-  }
+  "text_variables": {}
 }
