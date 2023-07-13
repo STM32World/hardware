@@ -13,7 +13,7 @@ Comment,Designator,Footprint,Display,LCSC
 "STM32WORLD_CONNECTOR_2","J3","stm32world:PinSocket_2x20_P2.54mm_Vertical_Stackable","","C35165"
 "STM32WORLD_BOARD","J4","stm32world:STM32WORLD_BOARD"
 "SolderJumper_2_Bridged","JP1,JP2","Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-"R_5.1K_0603","R1,R2","Resistor_SMD:R_0603_1608Metric","5.1k","C23186"
+"R_5.1K_0603","R1,R2","Resistor_SMD:R_0603_1608Metric","5k1","C23186"
 "R_10K_0603","R3,R4","Resistor_SMD:R_0603_1608Metric","10k","C25804"
 "R_220_0603","R5,R6","Resistor_SMD:R_0603_1608Metric","220R","C22962"
 "TS-1088R-02526","SW1,SW2","stm32world:TS-1088R-02526","","C455281"
