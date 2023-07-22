@@ -80,6 +80,73 @@
         )
       )
     )
+    (symbol "Jumper:SolderJumper_2_Open" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "JP" (at 0 2.032 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "SolderJumper_2_Open" (at 0 -2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "solder jumper SPST" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Solder Jumper, 2-pole, open" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "SolderJumper*Open*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "SolderJumper_2_Open_0_1"
+        (arc (start -0.254 1.016) (mid -1.2656 0) (end -0.254 -1.016)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (arc (start -0.254 1.016) (mid -1.2656 0) (end -0.254 -1.016)
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (polyline
+          (pts
+            (xy -0.254 1.016)
+            (xy -0.254 -1.016)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.254 1.016)
+            (xy 0.254 -1.016)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (arc (start 0.254 -1.016) (mid 1.2656 0) (end 0.254 1.016)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (arc (start 0.254 -1.016) (mid 1.2656 0) (end 0.254 1.016)
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+      )
+      (symbol "SolderJumper_2_Open_1_1"
+        (pin passive line (at -3.81 0 0) (length 2.54)
+          (name "A" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 3.81 0 180) (length 2.54)
+          (name "B" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "MCU_ST_STM32F4:STM32F405RGTx" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -15.24 46.99 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -4901,7 +4968,7 @@
   (symbol (lib_id "MCU_ST_STM32F4:STM32F405RGTx") (at 184.15 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060ab0ffd)
-    (property "Reference" "U3" (at 170.18 36.83 0)
+    (property "Reference" "U2" (at 170.18 36.83 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "STM32F405RGTx" (at 200.66 36.83 0)
@@ -4983,7 +5050,7 @@
     (instances
       (project "mcustm32f405"
         (path "/2136cdd5-671e-48f9-bc34-e71a72a40a1d"
-          (reference "U3") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -5017,7 +5084,7 @@
   (symbol (lib_id "power:GND") (at 267.97 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060cf7322)
-    (property "Reference" "#PWR035" (at 267.97 142.24 0)
+    (property "Reference" "#PWR034" (at 267.97 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 268.097 140.2842 0)
@@ -5033,7 +5100,7 @@
     (instances
       (project "mcustm32f405"
         (path "/2136cdd5-671e-48f9-bc34-e71a72a40a1d"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -5042,7 +5109,7 @@
   (symbol (lib_id "power:GND") (at 130.81 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060d13ae1)
-    (property "Reference" "#PWR022" (at 130.81 82.55 0)
+    (property "Reference" "#PWR021" (at 130.81 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 130.937 80.5942 0)
@@ -5058,7 +5125,7 @@
     (instances
       (project "mcustm32f405"
         (path "/2136cdd5-671e-48f9-bc34-e71a72a40a1d"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -5067,7 +5134,7 @@
   (symbol (lib_id "power:GND") (at 151.13 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060d13ae7)
-    (property "Reference" "#PWR027" (at 151.13 82.55 0)
+    (property "Reference" "#PWR026" (at 151.13 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 151.257 80.5942 0)
@@ -5083,7 +5150,7 @@
     (instances
       (project "mcustm32f405"
         (path "/2136cdd5-671e-48f9-bc34-e71a72a40a1d"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -5092,7 +5159,7 @@
   (symbol (lib_id "power:GND") (at 140.97 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060d13b00)
-    (property "Reference" "#PWR023" (at 140.97 82.55 0)
+    (property "Reference" "#PWR022" (at 140.97 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 141.097 80.5942 0)
@@ -5108,7 +5175,7 @@
     (instances
       (project "mcustm32f405"
         (path "/2136cdd5-671e-48f9-bc34-e71a72a40a1d"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -5117,7 +5184,7 @@
   (symbol (lib_id "power:GND") (at 124.46 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060d13b06)
-    (property "Reference" "#PWR021" (at 124.46 82.55 0)
+    (property "Reference" "#PWR020" (at 124.46 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 124.587 80.5942 0)
@@ -5133,7 +5200,7 @@
     (instances
       (project "mcustm32f405"
         (path "/2136cdd5-671e-48f9-bc34-e71a72a40a1d"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -5142,7 +5209,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 54.61 130.81 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060d2eb45)
-    (property "Reference" "D1" (at 54.61 127.635 0)
+    (property "Reference" "D2" (at 54.61 127.635 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 54.61 127.6096 0)
@@ -5162,7 +5229,7 @@
     (instances
       (project "mcustm32f405"
         (path "/2136cdd5-671e-48f9-bc34-e71a72a40a1d"
-          (reference "D1") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -5265,7 +5332,7 @@
   (symbol (lib_id "power:+5V") (at 69.85 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060d2eb7e)
-    (property "Reference" "#PWR014" (at 69.85 132.08 0)
+    (property "Reference" "#PWR010" (at 69.85 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 70.231 123.8758 0)
@@ -5281,7 +5348,7 @@
     (instances
       (project "mcustm32f405"
         (path "/2136cdd5-671e-48f9-bc34-e71a72a40a1d"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -5440,7 +5507,7 @@
   (symbol (lib_id "power:GND") (at 90.17 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060d77317)
-    (property "Reference" "#PWR018" (at 90.17 191.77 0)
+    (property "Reference" "#PWR016" (at 90.17 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 90.297 189.8142 0)
@@ -5456,7 +5523,7 @@
     (instances
       (project "mcustm32f405"
         (path "/2136cdd5-671e-48f9-bc34-e71a72a40a1d"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -5490,7 +5557,7 @@
   (symbol (lib_id "power:GND") (at 116.84 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060d77374)
-    (property "Reference" "#PWR020" (at 116.84 191.77 0)
+    (property "Reference" "#PWR019" (at 116.84 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 116.967 189.8142 0)
@@ -5506,7 +5573,7 @@
     (instances
       (project "mcustm32f405"
         (path "/2136cdd5-671e-48f9-bc34-e71a72a40a1d"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -5547,7 +5614,7 @@
   (symbol (lib_id "stm32world:C_100NF_0603") (at 91.44 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060ef316a)
-    (property "Reference" "C6" (at 91.44 30.48 0)
+    (property "Reference" "C7" (at 91.44 30.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C_100NF_0603" (at 92.71 36.83 0)
@@ -5570,7 +5637,7 @@
     (instances
       (project "mcustm32f405"
         (path "/2136cdd5-671e-48f9-bc34-e71a72a40a1d"
-          (reference "C6") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -5579,7 +5646,7 @@
   (symbol (lib_id "stm32world:C_100NF_0603") (at 97.79 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060ef3497)
-    (property "Reference" "C7" (at 97.79 30.48 0)
+    (property "Reference" "C8" (at 97.79 30.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C_100NF_0603" (at 99.06 36.83 0)
@@ -5602,7 +5669,7 @@
     (instances
       (project "mcustm32f405"
         (path "/2136cdd5-671e-48f9-bc34-e71a72a40a1d"
-          (reference "C7") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -5737,7 +5804,7 @@
   (symbol (lib_id "stm32world:LED_GREEN_0603") (at 149.86 167.64 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060f18163)
-    (property "Reference" "D2" (at 149.86 165.1 90)
+    (property "Reference" "D3" (at 149.86 165.1 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LED_GREEN_0603" (at 147.32 158.75 0)
@@ -5760,7 +5827,7 @@
     (instances
       (project "mcustm32f405"
         (path "/2136cdd5-671e-48f9-bc34-e71a72a40a1d"
-          (reference "D2") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -5769,7 +5836,7 @@
   (symbol (lib_id "stm32world:C_100NF_0603") (at 90.17 176.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060f3aa17)
-    (property "Reference" "C9" (at 90.17 173.99 0)
+    (property "Reference" "C6" (at 90.17 173.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C_100NF_0603" (at 91.44 180.34 0)
@@ -5792,7 +5859,7 @@
     (instances
       (project "mcustm32f405"
         (path "/2136cdd5-671e-48f9-bc34-e71a72a40a1d"
-          (reference "C9") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -5865,7 +5932,7 @@
   (symbol (lib_id "stm32world:LED_BLUE_0603") (at 163.83 167.64 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060f4867a)
-    (property "Reference" "D3" (at 163.83 165.1 90)
+    (property "Reference" "D4" (at 163.83 165.1 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LED_BLUE_0603" (at 161.29 158.75 0)
@@ -5888,7 +5955,7 @@
     (instances
       (project "mcustm32f405"
         (path "/2136cdd5-671e-48f9-bc34-e71a72a40a1d"
-          (reference "D3") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -6057,7 +6124,7 @@
   (symbol (lib_id "power:+5V") (at 240.03 24.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000611ee08c)
-    (property "Reference" "#PWR033" (at 240.03 27.94 0)
+    (property "Reference" "#PWR032" (at 240.03 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 240.03 20.32 0)
@@ -6073,7 +6140,7 @@
     (instances
       (project "mcustm32f405"
         (path "/2136cdd5-671e-48f9-bc34-e71a72a40a1d"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -6114,7 +6181,7 @@
   (symbol (lib_id "power:GND") (at 156.21 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006127de80)
-    (property "Reference" "#PWR028" (at 156.21 127 0)
+    (property "Reference" "#PWR027" (at 156.21 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 156.337 125.0442 0)
@@ -6130,7 +6197,7 @@
     (instances
       (project "mcustm32f405"
         (path "/2136cdd5-671e-48f9-bc34-e71a72a40a1d"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -6171,7 +6238,7 @@
   (symbol (lib_id "power:GND") (at 148.59 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000612b3e65)
-    (property "Reference" "#PWR026" (at 148.59 127 0)
+    (property "Reference" "#PWR023" (at 148.59 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 148.717 125.0442 0)
@@ -6187,7 +6254,7 @@
     (instances
       (project "mcustm32f405"
         (path "/2136cdd5-671e-48f9-bc34-e71a72a40a1d"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -6315,27 +6382,27 @@
     )
   )
 
-  (symbol (lib_id "stm32world:SolderJumper_2_Bridged") (at 97.79 170.18 0) (unit 1)
+  (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 125.73 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid 10193065-6e14-4169-a219-456d51ecaf0a)
-    (property "Reference" "JP3" (at 97.79 167.64 0)
+    (uuid 0c10f4fa-aca9-49f8-b683-9c087c5f02e0)
+    (property "Reference" "JP4" (at 125.73 167.64 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "SolderJumper_2_Bridged" (at 97.79 173.99 0)
+    (property "Value" "~" (at 125.73 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" (at 97.79 176.53 0)
+    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" (at 125.73 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 97.79 170.18 0)
+    (property "Datasheet" "~" (at 125.73 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 056a3db0-4ad4-4fc1-82fa-7e6b9865c8df))
-    (pin "2" (uuid bde9a812-9648-4561-b740-ffca1b5835fb))
+    (pin "1" (uuid bb6cc865-ddc4-41ad-b9ff-19465d499e5c))
+    (pin "2" (uuid 000a5897-47e6-4106-aa78-025ee7239a77))
     (instances
       (project "mcustm32f405"
         (path "/2136cdd5-671e-48f9-bc34-e71a72a40a1d"
-          (reference "JP3") (unit 1)
+          (reference "JP4") (unit 1)
         )
       )
     )
@@ -6344,7 +6411,7 @@
   (symbol (lib_id "stm32world:C_100NF_0603") (at 99.06 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1bf15722-c541-4efe-94ca-7964edeb3461)
-    (property "Reference" "C8" (at 99.06 85.09 0)
+    (property "Reference" "C9" (at 99.06 85.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C_100NF_0603" (at 100.33 91.44 0)
@@ -6367,7 +6434,7 @@
     (instances
       (project "mcustm32f405"
         (path "/2136cdd5-671e-48f9-bc34-e71a72a40a1d"
-          (reference "C8") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -6376,7 +6443,7 @@
   (symbol (lib_id "power:+3V3") (at 163.83 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 22ebebf3-2436-4318-b2cd-ae361778659d)
-    (property "Reference" "#PWR029" (at 163.83 165.1 0)
+    (property "Reference" "#PWR028" (at 163.83 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 163.83 157.7142 0)
@@ -6392,7 +6459,7 @@
     (instances
       (project "mcustm32f405"
         (path "/2136cdd5-671e-48f9-bc34-e71a72a40a1d"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -6418,6 +6485,32 @@
       (project "mcustm32f405"
         (path "/2136cdd5-671e-48f9-bc34-e71a72a40a1d"
           (reference "#PWR02") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 97.79 170.18 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 2d5c2fc5-e50a-4778-a337-6da8ed18ea39)
+    (property "Reference" "JP3" (at 97.79 167.64 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "~" (at 97.79 166.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" (at 97.79 170.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 97.79 170.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid aad5bc19-008d-42f0-9d36-0682b3c88f39))
+    (pin "2" (uuid 94b4fd6b-a61c-47eb-8afa-9f9e9cc372c8))
+    (instances
+      (project "mcustm32f405"
+        (path "/2136cdd5-671e-48f9-bc34-e71a72a40a1d"
+          (reference "JP3") (unit 1)
         )
       )
     )
@@ -6518,7 +6611,7 @@
   (symbol (lib_id "Power_Protection:SP0502BAHT") (at 52.07 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3167c50e-3f89-4091-bce1-b581f3121a9a)
-    (property "Reference" "D4" (at 45.72 156.21 0)
+    (property "Reference" "D1" (at 45.72 156.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PSM712" (at 53.34 166.37 0)
@@ -6539,7 +6632,7 @@
     (instances
       (project "mcustm32f405"
         (path "/2136cdd5-671e-48f9-bc34-e71a72a40a1d"
-          (reference "D4") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -6602,7 +6695,7 @@
   (symbol (lib_id "power:+3V3") (at 185.42 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 45ea1f68-8c5f-421a-b458-16f391874d1b)
-    (property "Reference" "#PWR031" (at 185.42 34.29 0)
+    (property "Reference" "#PWR029" (at 185.42 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 185.42 26.9042 0)
@@ -6618,7 +6711,7 @@
     (instances
       (project "mcustm32f405"
         (path "/2136cdd5-671e-48f9-bc34-e71a72a40a1d"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -6627,7 +6720,7 @@
   (symbol (lib_id "power:GND") (at 99.06 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4e5669a5-9262-4ae9-a861-f155097500cd)
-    (property "Reference" "#PWR016" (at 99.06 100.33 0)
+    (property "Reference" "#PWR017" (at 99.06 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 99.187 98.3742 0)
@@ -6643,7 +6736,7 @@
     (instances
       (project "mcustm32f405"
         (path "/2136cdd5-671e-48f9-bc34-e71a72a40a1d"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -6652,7 +6745,7 @@
   (symbol (lib_id "power:+3V3") (at 90.17 158.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 54aa94b1-c4bd-43f9-a07e-c364c64d1eb8)
-    (property "Reference" "#PWR017" (at 90.17 162.56 0)
+    (property "Reference" "#PWR015" (at 90.17 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 90.17 155.1742 0)
@@ -6668,7 +6761,7 @@
     (instances
       (project "mcustm32f405"
         (path "/2136cdd5-671e-48f9-bc34-e71a72a40a1d"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -6677,7 +6770,7 @@
   (symbol (lib_id "power:+3V3") (at 245.11 24.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 554da0af-1582-40e9-b83a-b1ecaa38be84)
-    (property "Reference" "#PWR034" (at 245.11 27.94 0)
+    (property "Reference" "#PWR033" (at 245.11 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 245.11 20.5542 0)
@@ -6693,7 +6786,7 @@
     (instances
       (project "mcustm32f405"
         (path "/2136cdd5-671e-48f9-bc34-e71a72a40a1d"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -6702,7 +6795,7 @@
   (symbol (lib_id "power:+3V3") (at 116.84 158.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5b2b0687-7c4c-49ba-bd93-9dcaec5c45c2)
-    (property "Reference" "#PWR019" (at 116.84 162.56 0)
+    (property "Reference" "#PWR018" (at 116.84 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 116.84 155.1742 0)
@@ -6718,7 +6811,7 @@
     (instances
       (project "mcustm32f405"
         (path "/2136cdd5-671e-48f9-bc34-e71a72a40a1d"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -6727,7 +6820,7 @@
   (symbol (lib_id "power:VDDA") (at 85.09 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 82ad3dfc-3b7d-4e1e-ae54-b16a643a43fe)
-    (property "Reference" "#PWR015" (at 85.09 82.55 0)
+    (property "Reference" "#PWR014" (at 85.09 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDDA" (at 85.09 74.93 0)
@@ -6743,33 +6836,7 @@
     (instances
       (project "mcustm32f405"
         (path "/2136cdd5-671e-48f9-bc34-e71a72a40a1d"
-          (reference "#PWR015") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "stm32world:SolderJumper_2_Bridged") (at 125.73 170.18 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 834132e3-5643-45d7-863a-483b829a82e5)
-    (property "Reference" "JP4" (at 125.73 167.64 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SolderJumper_2_Bridged" (at 125.73 173.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" (at 125.73 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 125.73 170.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b4609567-8264-4ac2-b603-e4555a21479e))
-    (pin "2" (uuid 8664750e-42e8-462e-b0c7-2690017fddb3))
-    (instances
-      (project "mcustm32f405"
-        (path "/2136cdd5-671e-48f9-bc34-e71a72a40a1d"
-          (reference "JP4") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -6964,7 +7031,7 @@
   (symbol (lib_id "power:GND") (at 52.07 186.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cc3e5043-dd16-4a2e-a128-00b016aeb03a)
-    (property "Reference" "#PWR010" (at 52.07 193.04 0)
+    (property "Reference" "#PWR07" (at 52.07 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 52.197 191.0842 0)
@@ -6980,7 +7047,7 @@
     (instances
       (project "mcustm32f405"
         (path "/2136cdd5-671e-48f9-bc34-e71a72a40a1d"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -7085,7 +7152,7 @@
   (symbol (lib_id "power:VDDA") (at 234.95 24.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d801f032-bf34-48d3-a56c-3b1e0740d367)
-    (property "Reference" "#PWR032" (at 234.95 27.94 0)
+    (property "Reference" "#PWR031" (at 234.95 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDDA" (at 234.95 20.32 0)
@@ -7101,7 +7168,7 @@
     (instances
       (project "mcustm32f405"
         (path "/2136cdd5-671e-48f9-bc34-e71a72a40a1d"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -7135,7 +7202,7 @@
   (symbol (lib_id "power:GND") (at 62.23 186.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e7fb7ce2-51ed-4bf9-82e2-34e63ca59c6a)
-    (property "Reference" "#PWR07" (at 62.23 193.04 0)
+    (property "Reference" "#PWR09" (at 62.23 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 62.357 191.0842 0)
@@ -7151,7 +7218,7 @@
     (instances
       (project "mcustm32f405"
         (path "/2136cdd5-671e-48f9-bc34-e71a72a40a1d"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -7185,7 +7252,7 @@
   (symbol (lib_id "power:+3V3") (at 72.39 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f193a092-050b-4928-a1f7-c77c276b1eba)
-    (property "Reference" "#PWR09" (at 72.39 82.55 0)
+    (property "Reference" "#PWR011" (at 72.39 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 72.39 75.1642 0)
@@ -7201,7 +7268,7 @@
     (instances
       (project "mcustm32f405"
         (path "/2136cdd5-671e-48f9-bc34-e71a72a40a1d"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
