@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "stm32world")(type "KiCad")(uri "${KIPRJMOD}/../lib/stm32world.kicad_sym")(options "")(descr ""))
+  (lib (name "2023-08-03_01-21-32")(type "KiCad")(uri "/tmp/KiCADv6/2023-08-03_01-21-32.kicad_sym")(options "")(descr ""))
+)
