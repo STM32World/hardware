@@ -3920,7 +3920,7 @@
     (pin "B9" (uuid 080fb834-3b6c-4175-993a-00973d3fea92))
     (pin "S1" (uuid 7f5531eb-1124-4f8b-8af8-f3a1f2f4c583))
     (instances
-      (project "mcump151"
+      (project "mcustm32mp151"
         (path "/45483761-40cc-431f-bcc2-65a9a869d9c1"
           (reference "J4") (unit 1)
         )
@@ -3987,7 +3987,7 @@
     (pin "8" (uuid cfbd2e37-5e14-45bb-8063-84e3e5fa0a05))
     (pin "9" (uuid 5a07a3bf-c736-42c9-8d63-6d0ecf05a6f7))
     (instances
-      (project "mcump151"
+      (project "mcustm32mp151"
         (path "/45483761-40cc-431f-bcc2-65a9a869d9c1"
           (reference "J3") (unit 1)
         )
@@ -4011,7 +4011,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "mcump151"
+      (project "mcustm32mp151"
         (path "/45483761-40cc-431f-bcc2-65a9a869d9c1"
           (reference "J1") (unit 1)
         )
@@ -4028,7 +4028,7 @@
     (property "Value" "STM32MP151AACx" (at 294.2941 388.9543 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_BGA:ST_TFBGA-361_12x12mm_Layout23x23_P0.5mmP0.65mm" (at 215.9 384.81 0)
+    (property "Footprint" "stm32world:ST_TFBGA-361_12x12mm_Layout23x23_P0.5mmP0.65mm" (at 215.9 384.81 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
     (property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32mp151a.pdf" (at 287.02 209.55 0)
@@ -4399,7 +4399,7 @@
     (pin "Y8" (uuid 05c5a737-0e0e-4fa7-87a8-14c8bec8d76f))
     (pin "Y9" (uuid b51e1416-6c48-4203-9d65-72e4c27ba42b))
     (instances
-      (project "mcump151"
+      (project "mcustm32mp151"
         (path "/45483761-40cc-431f-bcc2-65a9a869d9c1"
           (reference "U1") (unit 1)
         )
@@ -4443,7 +4443,7 @@
     (pin "B9" (uuid 725fa38c-57bb-4696-90d9-77e1f35acf30))
     (pin "S1" (uuid 6afcac21-708c-4790-a275-7e9abe3e7328))
     (instances
-      (project "mcump151"
+      (project "mcustm32mp151"
         (path "/45483761-40cc-431f-bcc2-65a9a869d9c1"
           (reference "J5") (unit 1)
         )
@@ -4563,7 +4563,7 @@
     (pin "M8" (uuid ef5ef2db-b0ee-40d7-9e0f-d6ee50a448a1))
     (pin "N8" (uuid 06daa399-b7ae-4d33-ade9-9358424e26a1))
     (instances
-      (project "mcump151"
+      (project "mcustm32mp151"
         (path "/45483761-40cc-431f-bcc2-65a9a869d9c1"
           (reference "U2") (unit 1)
         )
@@ -4588,7 +4588,7 @@
     )
     (pin "1" (uuid c95ea9c1-7a5e-4861-add9-7b0f1043f70f))
     (instances
-      (project "mcump151"
+      (project "mcustm32mp151"
         (path "/45483761-40cc-431f-bcc2-65a9a869d9c1"
           (reference "#PWR01") (unit 1)
         )
@@ -4655,7 +4655,7 @@
     (pin "8" (uuid 8ff8a4b2-9ee8-4b82-bbed-e8995b32342c))
     (pin "9" (uuid 4eacf0d3-138f-4e6e-b42f-33eb10c883b0))
     (instances
-      (project "mcump151"
+      (project "mcustm32mp151"
         (path "/45483761-40cc-431f-bcc2-65a9a869d9c1"
           (reference "J2") (unit 1)
         )

@@ -65,10 +65,10 @@
       40
     ],
     "visible_layers": "ffff7ff_ffffffff",
-    "zone_display_mode": 0
+    "zone_display_mode": 1
   },
   "meta": {
-    "filename": "mcump151.kicad_prl",
+    "filename": "mcustm32mp151.kicad_prl",
     "version": 3
   },
   "project": {
