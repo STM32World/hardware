@@ -1,0 +1,8 @@
+Comment,Designator,Footprint,LCSC
+"100nF","C1,C2,C3,C4","Capacitor_SMD:C_0603_1608Metric","C14663"
+"STM32WORLD_CONNECTOR_1","J1","stm32world:PinSocket_2x20_P2.54mm_Vertical_Stackable","C35165"
+"STM32WORLD_CONNECTOR_2","J2","stm32world:PinSocket_2x20_P2.54mm_Vertical_Stackable","C35165"
+"STM32WORLD_BOARD","J3","stm32world:STM32WORLD_BOARD"
+"~","JP1,JP2,JP3,JP4,JP5,JP6,JP7,JP8","Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+"4k7","R1,R2,R3","Resistor_SMD:R_0603_1608Metric","C23162"
+"M24M01","U1,U2,U3,U4","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","C79990"

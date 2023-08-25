@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.15239999999999998
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -55,7 +55,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_edge_clearance|167735628|95316791|8d7245da-c998-4bd4-bb6c-74fb86564a1c|461e6f7b-dab0-40f1-aa0f-732dc72342c0",
+        "silk_edge_clearance|193135628|145983208|4684de35-0d71-4fc9-96c9-1df128413d03|99926eb6-a013-450c-8189-bcf76fbbc955"
+      ],
       "meta": {
         "version": 2
       },
@@ -110,7 +113,7 @@
         "zones_intersect": "error"
       },
       "rules": {
-        "max_error": 0.001,
+        "max_error": 0.005,
         "min_clearance": 0.15239999999999998,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.0,
@@ -409,7 +412,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "proto.kicad_pro",
+    "filename": "mem24cxx.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -427,8 +430,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1524,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "via_diameter": 0.7,
+        "via_drill": 0.35,
         "wire_width": 6
       }
     ],
@@ -486,7 +489,7 @@
   },
   "sheets": [
     [
-      "8b885e6f-4da0-4718-b18b-f456006e1212",
+      "1ee49527-2c27-4caf-bd36-822a947ece97",
       ""
     ]
   ],
@@ -494,8 +497,10 @@
     "AUTHOR": "Lars Boegild Thomsen",
     "AUTHOR_EMAIL": "lbthomsen@gmail.com",
     "COMPANY": "STM32World",
-    "REVISION": "b",
-    "TITLE": "PROTO",
-    "URL": "https://stm32world.com/wiki/PROTO"
+    "NAME": "MEM24CXX",
+    "REV": "a",
+    "REVISION": "a",
+    "TITLE": "MEM24CXX",
+    "URL": "https://stm32world.com/wiki/MEM24CXX"
   }
 }
