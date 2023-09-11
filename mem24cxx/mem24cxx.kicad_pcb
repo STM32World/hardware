@@ -586,7 +586,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cc1952c2-1d0a-4f71-8116-77d5553d2146)
     )
-    (fp_text value "STM32WORLD_BASE" (at 0 26.67) (layer "F.Fab")
+    (fp_text value "STM32WORLD_BOARD" (at 0 26.67) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b7af008f-3f76-4550-8db0-51cd452197d9)
     )
