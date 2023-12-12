@@ -48,8 +48,17 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        "silk_edge_clearance|133445628|73726791|059c6131-0d9c-4549-b279-d64df1eae106|9c8fae9f-c864-4e6b-b8c6-b4cde98cc610",
+        "silk_edge_clearance|158845628|124393208|4f024f5e-1e90-4186-a43b-d81471874834|aae381c9-d256-42c1-966e-526000e6aca0"
+      ],
       "meta": {
         "version": 2
       },
@@ -165,8 +174,18 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0,
+        0.1524,
+        0.2286,
+        0.3048
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "layer_presets": [],
@@ -399,7 +418,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1524,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -409,9 +428,9 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "track_width": 0.1524,
+        "via_diameter": 0.7,
+        "via_drill": 0.35,
         "wire_width": 6
       }
     ],
