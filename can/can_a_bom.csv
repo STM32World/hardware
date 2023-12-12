@@ -1,0 +1,9 @@
+Comment,Designator,Footprint,LCSC
+"100nF","C1,C2","Capacitor_SMD:C_0603_1608Metric","C14663"
+"STM32WORLD_BOARD","J1","stm32world:STM32WORLD_BOARD"
+"STM32WORLD_CONNECTOR_1","J2","stm32world:PinSocket_2x20_P2.54mm_Vertical_Stackable","C35165"
+"STM32WORLD_CONNECTOR_2","J3","stm32world:PinSocket_2x20_P2.54mm_Vertical_Stackable","C35165"
+"~","J4,J5","TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal"
+"~","JP1,JP2,JP3,JP4,JP5,JP6,JP7,JP8,JP9,JP10","Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+"120R","R1,R2","Resistor_SMD:R_0603_1608Metric","C22787"
+"SN65HVD230DR","U1,U2","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","C12084"
