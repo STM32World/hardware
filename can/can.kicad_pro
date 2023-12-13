@@ -496,8 +496,8 @@
     "AUTHOR": "Lars Boegild Thomsen",
     "AUTHOR_EMAIL": "lbthomsen@gmail.com",
     "COMPANY": "stm32world",
-    "REVISION": "a",
-    "TITLE": "can",
-    "URL": "https://stm32world.com/wiki/CAN"
+    "REVISION": "b",
+    "TITLE": "CANTRANS",
+    "URL": "https://stm32world.com/wiki/CANTRANS"
   }
 }
