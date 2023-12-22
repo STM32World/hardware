@@ -494,8 +494,8 @@
   ],
   "text_variables": {
     "AUTHOR": "Lars Boegild Thomsen",
-    "AUTHOR_EMAIL": "lbthomsen@gmail.com",
-    "COMPANY": "stm32world",
+    "AUTHOR_EMAIL": "lbthomsen@stm32world.com",
+    "COMPANY": "STM32World",
     "REVISION": "b",
     "TITLE": "CANTRANS",
     "URL": "https://stm32world.com/wiki/CANTRANS"
