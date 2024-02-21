@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "stm32world")(type "KiCad")(uri "${KIPRJMOD}/../lib/stm32world.kicad_sym")(options "")(descr ""))
+  (lib (name "display")(type "KiCad")(uri "/home/lth/src/16-segment-display/lib/display.kicad_sym")(options "")(descr ""))
+)
