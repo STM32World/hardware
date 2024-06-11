@@ -1,0 +1,1054 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/lth/src/stm32world_hardware/sec01/sec01.kicad_sch</source>
+    <date>2024-06-11T14:40:40+0800</date>
+    <tool>Eeschema 8.0.2+dfsg-1</tool>
+    <textvar name="AUTHOR">Lars Boegild Thomsen</textvar>
+    <textvar name="AUTHOR_EMAIL">lth@stm32world.com</textvar>
+    <textvar name="COMPANY">STM32World</textvar>
+    <textvar name="REVISION">a</textvar>
+    <textvar name="TITLE">SEC01</textvar>
+    <textvar name="URL">https://stm32world.com/wiki/SEC01</textvar>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>SEC01</title>
+        <company>STM32World</company>
+        <rev>a</rev>
+        <date/>
+        <source>sec01.kicad_sch</source>
+        <comment number="1" value="https://stm32world.com/wiki/SEC01"/>
+        <comment number="2" value="Lars Boegild Thomsen"/>
+        <comment number="3" value="lth@stm32world.com"/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="sec01.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2343c0b2-d35a-40f1-9bab-ca913c10fc7f</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="sec01.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>16b4c135-e307-4a3b-a354-8b4eff219b3d</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>STM32WORLD_BOARD</value>
+      <footprint>stm32world:STM32WORLD_BOARD</footprint>
+      <fields>
+        <field name="Footprint">stm32world:STM32WORLD_BOARD</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="stm32world" part="STM32WORLD_BOARD" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="sec01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bee810e0-726c-4136-80fc-22277f02e865</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>STM32WORLD_CONNECTOR_1</value>
+      <footprint>stm32world:PinSocket_2x20_P2.54mm_Vertical_Stackable</footprint>
+      <fields>
+        <field name="LCSC">C35165</field>
+        <field name="Footprint">stm32world:PinSocket_2x20_P2.54mm_Vertical_Stackable</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="stm32world" part="STM32WORLD_CONNECTOR_1" description=""/>
+      <property name="LCSC" value="C35165"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="sec01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dbcba026-28be-4300-b32d-04eb4db78e9e</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>STM32WORLD_CONNECTOR_2</value>
+      <footprint>stm32world:PinSocket_2x20_P2.54mm_Vertical_Stackable</footprint>
+      <fields>
+        <field name="LCSC">C35165</field>
+        <field name="Footprint">stm32world:PinSocket_2x20_P2.54mm_Vertical_Stackable</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="stm32world" part="STM32WORLD_CONNECTOR_2" description=""/>
+      <property name="LCSC" value="C35165"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="sec01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5083bcbf-7d47-4335-af8d-eabbda6f9d94</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <description>Solder Jumper, 2-pole, open</description>
+      <fields>
+        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Solder Jumper, 2-pole, open</field>
+      </fields>
+      <libsource lib="stm32world" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="sec01.kicad_sch"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <property name="ki_fp_filters" value="SolderJumper*Open*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3ec63293-ce6f-4c6d-a716-844ff3f7580c</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <description>Solder Jumper, 2-pole, open</description>
+      <fields>
+        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Solder Jumper, 2-pole, open</field>
+      </fields>
+      <libsource lib="stm32world" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="sec01.kicad_sch"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <property name="ki_fp_filters" value="SolderJumper*Open*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fad8bbc4-b335-492c-bc7c-db3871c28e9a</tstamps>
+    </comp>
+    <comp ref="JP3">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <description>Solder Jumper, 2-pole, open</description>
+      <fields>
+        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Solder Jumper, 2-pole, open</field>
+      </fields>
+      <libsource lib="stm32world" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="sec01.kicad_sch"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <property name="ki_fp_filters" value="SolderJumper*Open*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>210b2b42-1ab8-4c49-8d5e-c8f2557f637d</tstamps>
+    </comp>
+    <comp ref="JP4">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <description>Solder Jumper, 2-pole, open</description>
+      <fields>
+        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Solder Jumper, 2-pole, open</field>
+      </fields>
+      <libsource lib="stm32world" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="sec01.kicad_sch"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <property name="ki_fp_filters" value="SolderJumper*Open*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef581e5f-3183-4382-93de-ddb217cfb001</tstamps>
+    </comp>
+    <comp ref="JP5">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <description>Solder Jumper, 2-pole, open</description>
+      <fields>
+        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Solder Jumper, 2-pole, open</field>
+      </fields>
+      <libsource lib="stm32world" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="sec01.kicad_sch"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <property name="ki_fp_filters" value="SolderJumper*Open*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b42fc214-cc17-44d9-bcb1-46f163702441</tstamps>
+    </comp>
+    <comp ref="JP6">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <description>Solder Jumper, 2-pole, open</description>
+      <fields>
+        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Solder Jumper, 2-pole, open</field>
+      </fields>
+      <libsource lib="stm32world" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="sec01.kicad_sch"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <property name="ki_fp_filters" value="SolderJumper*Open*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>10fb9b6e-c2a4-41a3-a86a-e159aec29be6</tstamps>
+    </comp>
+    <comp ref="JP7">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <description>Solder Jumper, 2-pole, open</description>
+      <fields>
+        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Solder Jumper, 2-pole, open</field>
+      </fields>
+      <libsource lib="stm32world" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="sec01.kicad_sch"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <property name="ki_fp_filters" value="SolderJumper*Open*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>37826622-2d89-44bb-bab7-ae0294d6baca</tstamps>
+    </comp>
+    <comp ref="JP8">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <description>Solder Jumper, 2-pole, open</description>
+      <fields>
+        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Solder Jumper, 2-pole, open</field>
+      </fields>
+      <libsource lib="stm32world" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="sec01.kicad_sch"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <property name="ki_fp_filters" value="SolderJumper*Open*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d221629c-ccca-42ca-8988-d504389e27f6</tstamps>
+    </comp>
+    <comp ref="JP9">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <description>Solder Jumper, 2-pole, open</description>
+      <fields>
+        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Solder Jumper, 2-pole, open</field>
+      </fields>
+      <libsource lib="stm32world" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="sec01.kicad_sch"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <property name="ki_fp_filters" value="SolderJumper*Open*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a4aa2bb-b3fc-4e45-a794-5ac6ef0b6e98</tstamps>
+    </comp>
+    <comp ref="JP10">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <description>Solder Jumper, 2-pole, open</description>
+      <fields>
+        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Solder Jumper, 2-pole, open</field>
+      </fields>
+      <libsource lib="stm32world" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="sec01.kicad_sch"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <property name="ki_fp_filters" value="SolderJumper*Open*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed851584-7fef-4972-b741-d76fb74e41c3</tstamps>
+    </comp>
+    <comp ref="JP11">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <description>Solder Jumper, 2-pole, open</description>
+      <fields>
+        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Solder Jumper, 2-pole, open</field>
+      </fields>
+      <libsource lib="stm32world" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="sec01.kicad_sch"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <property name="ki_fp_filters" value="SolderJumper*Open*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>13718007-6ce8-4cac-9524-1ea77f85dc4e</tstamps>
+    </comp>
+    <comp ref="JP12">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <description>Solder Jumper, 2-pole, open</description>
+      <fields>
+        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Solder Jumper, 2-pole, open</field>
+      </fields>
+      <libsource lib="stm32world" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="sec01.kicad_sch"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <property name="ki_fp_filters" value="SolderJumper*Open*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>311e7fdf-5c13-42c3-a1c6-0a767e3f922c</tstamps>
+    </comp>
+    <comp ref="JP13">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <description>Solder Jumper, 2-pole, open</description>
+      <fields>
+        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Solder Jumper, 2-pole, open</field>
+      </fields>
+      <libsource lib="stm32world" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="sec01.kicad_sch"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <property name="ki_fp_filters" value="SolderJumper*Open*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>07d71aaa-47df-4485-9963-8f79cc6a590e</tstamps>
+    </comp>
+    <comp ref="JP14">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <description>Solder Jumper, 2-pole, open</description>
+      <fields>
+        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Solder Jumper, 2-pole, open</field>
+      </fields>
+      <libsource lib="stm32world" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="sec01.kicad_sch"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <property name="ki_fp_filters" value="SolderJumper*Open*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5cd9a9b8-f75b-48e7-9d54-28dba6933405</tstamps>
+    </comp>
+    <comp ref="JP15">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <description>Solder Jumper, 2-pole, open</description>
+      <fields>
+        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Solder Jumper, 2-pole, open</field>
+      </fields>
+      <libsource lib="stm32world" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="sec01.kicad_sch"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <property name="ki_fp_filters" value="SolderJumper*Open*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf6d2c58-5be4-46dc-9102-cc254fed1e3e</tstamps>
+    </comp>
+    <comp ref="JP16">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <description>Solder Jumper, 2-pole, open</description>
+      <fields>
+        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Solder Jumper, 2-pole, open</field>
+      </fields>
+      <libsource lib="stm32world" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="sec01.kicad_sch"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <property name="ki_fp_filters" value="SolderJumper*Open*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c339f569-ca7f-4f26-b430-76adaf62566b</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>4K7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C23162"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="sec01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>90a263fc-2706-4399-951a-44bc7751b1e4</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>4K7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C23162"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="sec01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>91caf52d-a0a8-4ec7-9869-f769300c0478</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>4K7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C23162"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="sec01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>950171cd-9b73-40e5-a6a6-b93935bb1ff8</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>4K7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C23162"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="sec01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>efea13b9-31ce-4206-8241-f9b1504acd42</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ATECC608A</value>
+      <footprint>Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.3x1.5mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/ATECC608A-CryptoAuthentication-Device-Summary-Data-Sheet-DS40001977B.pdf</datasheet>
+      <description>Cryptographic Co-Processor with Secure Hardware-based 16 Key Storage, ECDSA and ECDH support, I2C, UDFN-8</description>
+      <fields>
+        <field name="LCSC">C616908</field>
+        <field name="Footprint">Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.3x1.5mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/ATECC608A-CryptoAuthentication-Device-Summary-Data-Sheet-DS40001977B.pdf</field>
+        <field name="Description">Cryptographic Co-Processor with Secure Hardware-based 16 Key Storage, ECDSA and ECDH support, I2C, UDFN-8</field>
+      </fields>
+      <libsource lib="Security" part="ATECC608A-MAHDA" description="Cryptographic Co-Processor with Secure Hardware-based 16 Key Storage, ECDSA and ECDH support, I2C, UDFN-8"/>
+      <property name="LCSC" value="C616908"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="sec01.kicad_sch"/>
+      <property name="ki_keywords" value="Cryptographic coprocessor"/>
+      <property name="ki_fp_filters" value="DFN*1EP*3x2mm*P0.5mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c43ea997-5463-4953-89fd-590f3488e681</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>ATECC608B</value>
+      <footprint>Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.3x1.5mm</footprint>
+      <datasheet>https://ww1.microchip.com/downloads/aemDocuments/documents/SCBU/ProductDocuments/DataSheets/ATECC608B-CryptoAuthentication-Device-Summary-Data-Sheet-DS40002239B.pdf</datasheet>
+      <description>Cryptographic Co-Processor with Secure Hardware-based 16 Key Storage, ECDSA and ECDH support, I2C, UDFN-8</description>
+      <fields>
+        <field name="LCSC">C17350254</field>
+        <field name="Footprint">Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.3x1.5mm</field>
+        <field name="Datasheet">https://ww1.microchip.com/downloads/aemDocuments/documents/SCBU/ProductDocuments/DataSheets/ATECC608B-CryptoAuthentication-Device-Summary-Data-Sheet-DS40002239B.pdf</field>
+        <field name="Description">Cryptographic Co-Processor with Secure Hardware-based 16 Key Storage, ECDSA and ECDH support, I2C, UDFN-8</field>
+      </fields>
+      <libsource lib="Security" part="ATECC608B-MAHDA" description="Cryptographic Co-Processor with Secure Hardware-based 16 Key Storage, ECDSA and ECDH support, I2C, UDFN-8"/>
+      <property name="LCSC" value="C17350254"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="sec01.kicad_sch"/>
+      <property name="ki_keywords" value="Cryptographic coprocessor"/>
+      <property name="ki_fp_filters" value="DFN*1EP*3x2mm*P0.5mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7f8ac91e-9e1a-4999-974d-7ec8c8f0b79d</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Security" part="ATECC608A-MAHDA">
+      <description>Cryptographic Co-Processor with Secure Hardware-based 16 Key Storage, ECDSA and ECDH support, I2C, UDFN-8</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/ATECC608A-CryptoAuthentication-Device-Summary-Data-Sheet-DS40001977B.pdf</docs>
+      <footprints>
+        <fp>DFN*1EP*3x2mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATECC608A-MAHDA</field>
+        <field name="Footprint">Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.3x1.5mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/ATECC608A-CryptoAuthentication-Device-Summary-Data-Sheet-DS40001977B.pdf</field>
+        <field name="Description">Cryptographic Co-Processor with Secure Hardware-based 16 Key Storage, ECDSA and ECDH support, I2C, UDFN-8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="no_connect"/>
+        <pin num="2" name="NC" type="no_connect"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SDA" type="bidirectional"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="NC" type="no_connect"/>
+        <pin num="8" name="VCC" type="power_in"/>
+        <pin num="9" name="EP" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Security" part="ATECC608B-MAHDA">
+      <description>Cryptographic Co-Processor with Secure Hardware-based 16 Key Storage, ECDSA and ECDH support, I2C, UDFN-8</description>
+      <docs>https://ww1.microchip.com/downloads/aemDocuments/documents/SCBU/ProductDocuments/DataSheets/ATECC608B-CryptoAuthentication-Device-Summary-Data-Sheet-DS40002239B.pdf</docs>
+      <footprints>
+        <fp>DFN*1EP*3x2mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATECC608B-MAHDA</field>
+        <field name="Footprint">Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.3x1.5mm</field>
+        <field name="Datasheet">https://ww1.microchip.com/downloads/aemDocuments/documents/SCBU/ProductDocuments/DataSheets/ATECC608B-CryptoAuthentication-Device-Summary-Data-Sheet-DS40002239B.pdf</field>
+        <field name="Description">Cryptographic Co-Processor with Secure Hardware-based 16 Key Storage, ECDSA and ECDH support, I2C, UDFN-8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="no_connect"/>
+        <pin num="2" name="NC" type="no_connect"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SDA" type="bidirectional"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="NC" type="no_connect"/>
+        <pin num="8" name="VCC" type="power_in"/>
+        <pin num="9" name="EP" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="stm32world" part="STM32WORLD_BOARD">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">STM32WORLD_BOARD</field>
+        <field name="Footprint">stm32world:STM32WORLD_BOARD</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+    </libpart>
+    <libpart lib="stm32world" part="STM32WORLD_CONNECTOR_1">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">STM32WORLD_CONNECTOR_1</field>
+        <field name="Footprint">stm32world:PinSocket_2x20_P2.54mm_Vertical_Stackable</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="LCSC">C35165</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="VA" type="passive"/>
+        <pin num="3" name="NRST" type="passive"/>
+        <pin num="4" name="BO0" type="passive"/>
+        <pin num="5" name="PC1" type="passive"/>
+        <pin num="6" name="PC0" type="passive"/>
+        <pin num="7" name="PC3" type="passive"/>
+        <pin num="8" name="PC2" type="passive"/>
+        <pin num="9" name="PA1" type="passive"/>
+        <pin num="10" name="PA0" type="passive"/>
+        <pin num="11" name="PA3" type="passive"/>
+        <pin num="12" name="PA2" type="passive"/>
+        <pin num="13" name="PA5" type="passive"/>
+        <pin num="14" name="PA4" type="passive"/>
+        <pin num="15" name="PA7" type="passive"/>
+        <pin num="16" name="PA6" type="passive"/>
+        <pin num="17" name="PC5" type="passive"/>
+        <pin num="18" name="PC4" type="passive"/>
+        <pin num="19" name="PB1" type="passive"/>
+        <pin num="20" name="PB0" type="passive"/>
+        <pin num="21" name="U0" type="passive"/>
+        <pin num="22" name="PB2" type="passive"/>
+        <pin num="23" name="PB11" type="passive"/>
+        <pin num="24" name="PB10" type="passive"/>
+        <pin num="25" name="PB13" type="passive"/>
+        <pin num="26" name="PB12" type="passive"/>
+        <pin num="27" name="PB15" type="passive"/>
+        <pin num="28" name="PB14" type="passive"/>
+        <pin num="29" name="PC7" type="passive"/>
+        <pin num="30" name="PC6" type="passive"/>
+        <pin num="31" name="PC9" type="passive"/>
+        <pin num="32" name="PC8" type="passive"/>
+        <pin num="33" name="U2" type="passive"/>
+        <pin num="34" name="U1" type="passive"/>
+        <pin num="35" name="U4" type="passive"/>
+        <pin num="36" name="U3" type="passive"/>
+        <pin num="37" name="GND" type="passive"/>
+        <pin num="38" name="3.3V" type="passive"/>
+        <pin num="39" name="GND" type="passive"/>
+        <pin num="40" name="5V" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="stm32world" part="STM32WORLD_CONNECTOR_2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">STM32WORLD_CONNECTOR_2</field>
+        <field name="Footprint">stm32world:PinSocket_2x20_P2.54mm_Vertical_Stackable</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="LCSC">C35165</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="5V" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="3.3V" type="passive"/>
+        <pin num="5" name="U16" type="passive"/>
+        <pin num="6" name="U15" type="passive"/>
+        <pin num="7" name="U14" type="passive"/>
+        <pin num="8" name="U13" type="passive"/>
+        <pin num="9" name="PA9" type="passive"/>
+        <pin num="10" name="PA8" type="passive"/>
+        <pin num="11" name="PA11" type="passive"/>
+        <pin num="12" name="PA10" type="passive"/>
+        <pin num="13" name="PA13" type="passive"/>
+        <pin num="14" name="PA12" type="passive"/>
+        <pin num="15" name="PA15" type="passive"/>
+        <pin num="16" name="PA14" type="passive"/>
+        <pin num="17" name="U12" type="passive"/>
+        <pin num="18" name="U11" type="passive"/>
+        <pin num="19" name="PC11" type="passive"/>
+        <pin num="20" name="PC10" type="passive"/>
+        <pin num="21" name="U8" type="passive"/>
+        <pin num="22" name="PC12" type="passive"/>
+        <pin num="23" name="23" type="passive"/>
+        <pin num="24" name="PD2" type="passive"/>
+        <pin num="25" name="PB5" type="passive"/>
+        <pin num="26" name="PB4" type="passive"/>
+        <pin num="27" name="PB7" type="passive"/>
+        <pin num="28" name="PB6" type="passive"/>
+        <pin num="29" name="PB9" type="passive"/>
+        <pin num="30" name="PB8" type="passive"/>
+        <pin num="31" name="U10" type="passive"/>
+        <pin num="32" name="U9" type="passive"/>
+        <pin num="33" name="PC13" type="passive"/>
+        <pin num="34" name="PC14" type="passive"/>
+        <pin num="35" name="PC15" type="passive"/>
+        <pin num="36" name="U7" type="passive"/>
+        <pin num="37" name="U6" type="passive"/>
+        <pin num="38" name="U5" type="passive"/>
+        <pin num="39" name="GND" type="passive"/>
+        <pin num="40" name="VB" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="stm32world" part="SolderJumper_2_Open">
+      <description>Solder Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Open</field>
+        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Solder Jumper, 2-pole, open</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Security">
+      <uri>/usr/share/kicad/symbols//Security.kicad_sym</uri>
+    </library>
+    <library logical="stm32world">
+      <uri>/home/lth/src/stm32world_hardware/sec01/../lib/stm32world.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J2" pin="38" pinfunction="3.3V" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="3.3V" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="8" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="A_SCL">
+      <node ref="JP5" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP6" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP7" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP8" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="3" name="A_SDA">
+      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP3" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP4" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="B_SCL">
+      <node ref="JP13" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP14" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP15" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP16" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="5" name="B_SDA">
+      <node ref="JP10" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP11" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP12" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP9" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="37" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="39" pinfunction="GND" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="9" pinfunction="EP" pintype="input"/>
+      <node ref="U2" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="9" pinfunction="EP" pintype="input"/>
+    </net>
+    <net code="7" name="I2C1_A_SCL">
+      <node ref="J3" pin="30" pinfunction="PB8" pintype="passive"/>
+      <node ref="JP14" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP6" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="8" name="I2C1_A_SDA">
+      <node ref="J3" pin="29" pinfunction="PB9" pintype="passive"/>
+      <node ref="JP10" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="9" name="I2C1_SCL">
+      <node ref="J3" pin="28" pinfunction="PB6" pintype="passive"/>
+      <node ref="JP13" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP5" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="10" name="I2C1_SDA">
+      <node ref="J3" pin="27" pinfunction="PB7" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP9" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="11" name="I2C2_SCL">
+      <node ref="J2" pin="24" pinfunction="PB10" pintype="passive"/>
+      <node ref="JP15" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP7" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="12" name="I2C2_SDA">
+      <node ref="J2" pin="23" pinfunction="PB11" pintype="passive"/>
+      <node ref="JP11" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP3" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="13" name="I2C3_SCL">
+      <node ref="J3" pin="10" pinfunction="PA8" pintype="passive"/>
+      <node ref="JP16" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP8" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="14" name="I2C3_SDA">
+      <node ref="J3" pin="9" pinfunction="PA9" pintype="passive"/>
+      <node ref="JP12" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP4" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="15" name="unconnected-(J2-5V-Pad40)">
+      <node ref="J2" pin="40" pinfunction="5V" pintype="passive"/>
+    </net>
+    <net code="16" name="unconnected-(J2-BO0-Pad4)">
+      <node ref="J2" pin="4" pinfunction="BO0" pintype="passive"/>
+    </net>
+    <net code="17" name="unconnected-(J2-NRST-Pad3)">
+      <node ref="J2" pin="3" pinfunction="NRST" pintype="passive"/>
+    </net>
+    <net code="18" name="unconnected-(J2-PA0-Pad10)">
+      <node ref="J2" pin="10" pinfunction="PA0" pintype="passive"/>
+    </net>
+    <net code="19" name="unconnected-(J2-PA1-Pad9)">
+      <node ref="J2" pin="9" pinfunction="PA1" pintype="passive"/>
+    </net>
+    <net code="20" name="unconnected-(J2-PA2-Pad12)">
+      <node ref="J2" pin="12" pinfunction="PA2" pintype="passive"/>
+    </net>
+    <net code="21" name="unconnected-(J2-PA3-Pad11)">
+      <node ref="J2" pin="11" pinfunction="PA3" pintype="passive"/>
+    </net>
+    <net code="22" name="unconnected-(J2-PA4-Pad14)">
+      <node ref="J2" pin="14" pinfunction="PA4" pintype="passive"/>
+    </net>
+    <net code="23" name="unconnected-(J2-PA5-Pad13)">
+      <node ref="J2" pin="13" pinfunction="PA5" pintype="passive"/>
+    </net>
+    <net code="24" name="unconnected-(J2-PA6-Pad16)">
+      <node ref="J2" pin="16" pinfunction="PA6" pintype="passive"/>
+    </net>
+    <net code="25" name="unconnected-(J2-PA7-Pad15)">
+      <node ref="J2" pin="15" pinfunction="PA7" pintype="passive"/>
+    </net>
+    <net code="26" name="unconnected-(J2-PB0-Pad20)">
+      <node ref="J2" pin="20" pinfunction="PB0" pintype="passive"/>
+    </net>
+    <net code="27" name="unconnected-(J2-PB1-Pad19)">
+      <node ref="J2" pin="19" pinfunction="PB1" pintype="passive"/>
+    </net>
+    <net code="28" name="unconnected-(J2-PB2-Pad22)">
+      <node ref="J2" pin="22" pinfunction="PB2" pintype="passive"/>
+    </net>
+    <net code="29" name="unconnected-(J2-PB12-Pad26)">
+      <node ref="J2" pin="26" pinfunction="PB12" pintype="passive"/>
+    </net>
+    <net code="30" name="unconnected-(J2-PB13-Pad25)">
+      <node ref="J2" pin="25" pinfunction="PB13" pintype="passive"/>
+    </net>
+    <net code="31" name="unconnected-(J2-PB14-Pad28)">
+      <node ref="J2" pin="28" pinfunction="PB14" pintype="passive"/>
+    </net>
+    <net code="32" name="unconnected-(J2-PB15-Pad27)">
+      <node ref="J2" pin="27" pinfunction="PB15" pintype="passive"/>
+    </net>
+    <net code="33" name="unconnected-(J2-PC0-Pad6)">
+      <node ref="J2" pin="6" pinfunction="PC0" pintype="passive"/>
+    </net>
+    <net code="34" name="unconnected-(J2-PC1-Pad5)">
+      <node ref="J2" pin="5" pinfunction="PC1" pintype="passive"/>
+    </net>
+    <net code="35" name="unconnected-(J2-PC2-Pad8)">
+      <node ref="J2" pin="8" pinfunction="PC2" pintype="passive"/>
+    </net>
+    <net code="36" name="unconnected-(J2-PC3-Pad7)">
+      <node ref="J2" pin="7" pinfunction="PC3" pintype="passive"/>
+    </net>
+    <net code="37" name="unconnected-(J2-PC4-Pad18)">
+      <node ref="J2" pin="18" pinfunction="PC4" pintype="passive"/>
+    </net>
+    <net code="38" name="unconnected-(J2-PC5-Pad17)">
+      <node ref="J2" pin="17" pinfunction="PC5" pintype="passive"/>
+    </net>
+    <net code="39" name="unconnected-(J2-PC6-Pad30)">
+      <node ref="J2" pin="30" pinfunction="PC6" pintype="passive"/>
+    </net>
+    <net code="40" name="unconnected-(J2-PC7-Pad29)">
+      <node ref="J2" pin="29" pinfunction="PC7" pintype="passive"/>
+    </net>
+    <net code="41" name="unconnected-(J2-PC8-Pad32)">
+      <node ref="J2" pin="32" pinfunction="PC8" pintype="passive"/>
+    </net>
+    <net code="42" name="unconnected-(J2-PC9-Pad31)">
+      <node ref="J2" pin="31" pinfunction="PC9" pintype="passive"/>
+    </net>
+    <net code="43" name="unconnected-(J2-U0-Pad21)">
+      <node ref="J2" pin="21" pinfunction="U0" pintype="passive"/>
+    </net>
+    <net code="44" name="unconnected-(J2-U1-Pad34)">
+      <node ref="J2" pin="34" pinfunction="U1" pintype="passive"/>
+    </net>
+    <net code="45" name="unconnected-(J2-U2-Pad33)">
+      <node ref="J2" pin="33" pinfunction="U2" pintype="passive"/>
+    </net>
+    <net code="46" name="unconnected-(J2-U3-Pad36)">
+      <node ref="J2" pin="36" pinfunction="U3" pintype="passive"/>
+    </net>
+    <net code="47" name="unconnected-(J2-U4-Pad35)">
+      <node ref="J2" pin="35" pinfunction="U4" pintype="passive"/>
+    </net>
+    <net code="48" name="unconnected-(J2-VA-Pad2)">
+      <node ref="J2" pin="2" pinfunction="VA" pintype="passive"/>
+    </net>
+    <net code="49" name="unconnected-(J3-5V-Pad2)">
+      <node ref="J3" pin="2" pinfunction="5V" pintype="passive"/>
+    </net>
+    <net code="50" name="unconnected-(J3-GND-Pad39)">
+      <node ref="J3" pin="39" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="51" name="unconnected-(J3-PA10-Pad12)">
+      <node ref="J3" pin="12" pinfunction="PA10" pintype="passive"/>
+    </net>
+    <net code="52" name="unconnected-(J3-PA11-Pad11)">
+      <node ref="J3" pin="11" pinfunction="PA11" pintype="passive"/>
+    </net>
+    <net code="53" name="unconnected-(J3-PA12-Pad14)">
+      <node ref="J3" pin="14" pinfunction="PA12" pintype="passive"/>
+    </net>
+    <net code="54" name="unconnected-(J3-PA13-Pad13)">
+      <node ref="J3" pin="13" pinfunction="PA13" pintype="passive"/>
+    </net>
+    <net code="55" name="unconnected-(J3-PA14-Pad16)">
+      <node ref="J3" pin="16" pinfunction="PA14" pintype="passive"/>
+    </net>
+    <net code="56" name="unconnected-(J3-PA15-Pad15)">
+      <node ref="J3" pin="15" pinfunction="PA15" pintype="passive"/>
+    </net>
+    <net code="57" name="unconnected-(J3-PB4-Pad26)">
+      <node ref="J3" pin="26" pinfunction="PB4" pintype="passive"/>
+    </net>
+    <net code="58" name="unconnected-(J3-PB5-Pad25)">
+      <node ref="J3" pin="25" pinfunction="PB5" pintype="passive"/>
+    </net>
+    <net code="59" name="unconnected-(J3-PC10-Pad20)">
+      <node ref="J3" pin="20" pinfunction="PC10" pintype="passive"/>
+    </net>
+    <net code="60" name="unconnected-(J3-PC11-Pad19)">
+      <node ref="J3" pin="19" pinfunction="PC11" pintype="passive"/>
+    </net>
+    <net code="61" name="unconnected-(J3-PC12-Pad22)">
+      <node ref="J3" pin="22" pinfunction="PC12" pintype="passive"/>
+    </net>
+    <net code="62" name="unconnected-(J3-PC13-Pad33)">
+      <node ref="J3" pin="33" pinfunction="PC13" pintype="passive"/>
+    </net>
+    <net code="63" name="unconnected-(J3-PC14-Pad34)">
+      <node ref="J3" pin="34" pinfunction="PC14" pintype="passive"/>
+    </net>
+    <net code="64" name="unconnected-(J3-PC15-Pad35)">
+      <node ref="J3" pin="35" pinfunction="PC15" pintype="passive"/>
+    </net>
+    <net code="65" name="unconnected-(J3-PD2-Pad24)">
+      <node ref="J3" pin="24" pinfunction="PD2" pintype="passive"/>
+    </net>
+    <net code="66" name="unconnected-(J3-Pad23)">
+      <node ref="J3" pin="23" pinfunction="23" pintype="passive"/>
+    </net>
+    <net code="67" name="unconnected-(J3-U5-Pad38)">
+      <node ref="J3" pin="38" pinfunction="U5" pintype="passive"/>
+    </net>
+    <net code="68" name="unconnected-(J3-U6-Pad37)">
+      <node ref="J3" pin="37" pinfunction="U6" pintype="passive"/>
+    </net>
+    <net code="69" name="unconnected-(J3-U7-Pad36)">
+      <node ref="J3" pin="36" pinfunction="U7" pintype="passive"/>
+    </net>
+    <net code="70" name="unconnected-(J3-U8-Pad21)">
+      <node ref="J3" pin="21" pinfunction="U8" pintype="passive"/>
+    </net>
+    <net code="71" name="unconnected-(J3-U9-Pad32)">
+      <node ref="J3" pin="32" pinfunction="U9" pintype="passive"/>
+    </net>
+    <net code="72" name="unconnected-(J3-U10-Pad31)">
+      <node ref="J3" pin="31" pinfunction="U10" pintype="passive"/>
+    </net>
+    <net code="73" name="unconnected-(J3-U11-Pad18)">
+      <node ref="J3" pin="18" pinfunction="U11" pintype="passive"/>
+    </net>
+    <net code="74" name="unconnected-(J3-U12-Pad17)">
+      <node ref="J3" pin="17" pinfunction="U12" pintype="passive"/>
+    </net>
+    <net code="75" name="unconnected-(J3-U13-Pad8)">
+      <node ref="J3" pin="8" pinfunction="U13" pintype="passive"/>
+    </net>
+    <net code="76" name="unconnected-(J3-U14-Pad7)">
+      <node ref="J3" pin="7" pinfunction="U14" pintype="passive"/>
+    </net>
+    <net code="77" name="unconnected-(J3-U15-Pad6)">
+      <node ref="J3" pin="6" pinfunction="U15" pintype="passive"/>
+    </net>
+    <net code="78" name="unconnected-(J3-U16-Pad5)">
+      <node ref="J3" pin="5" pinfunction="U16" pintype="passive"/>
+    </net>
+    <net code="79" name="unconnected-(J3-VB-Pad40)">
+      <node ref="J3" pin="40" pinfunction="VB" pintype="passive"/>
+    </net>
+    <net code="80" name="unconnected-(U1-NC-Pad1)">
+      <node ref="U1" pin="1" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(U1-NC-Pad2)">
+      <node ref="U1" pin="2" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(U1-NC-Pad3)">
+      <node ref="U1" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(U1-NC-Pad7)">
+      <node ref="U1" pin="7" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(U2-NC-Pad1)">
+      <node ref="U2" pin="1" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(U2-NC-Pad2)">
+      <node ref="U2" pin="2" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(U2-NC-Pad3)">
+      <node ref="U2" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(U2-NC-Pad7)">
+      <node ref="U2" pin="7" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

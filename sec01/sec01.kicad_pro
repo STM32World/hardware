@@ -41,15 +41,14 @@
           "height": 1.524,
           "width": 1.524
         },
-        "silk_line_width": 0.12,
+        "silk_line_width": 0.1,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.15,
+        "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": false,
-          "min_clearance": 0.1524
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -60,12 +59,8 @@
         }
       ],
       "drc_exclusions": [
-        "silk_edge_clearance|135985628|76266791|2a134ab3-6275-4421-945b-c8f4bea31494|f95f9a3c-75d1-45f4-bc5c-ce19c448ca8a",
-        "silk_edge_clearance|161385628|126933208|a0669899-5470-43ea-a529-f6722444bf9b|5f06aaca-b710-43d8-99f7-4db191530aa0",
-        "silk_edge_clearance|190500000|106300000|c2fd4927-8431-4c85-b75d-1336c8306cc2|6fa461b1-f08a-4653-9923-abd95996b718",
-        "silk_edge_clearance|190500000|96900000|c2fd4927-8431-4c85-b75d-1336c8306cc2|8d416c9c-68b4-46cc-989c-f1e2f67bac0e",
-        "silk_overlap|116101905|88719819|02a70800-c6ce-4048-8341-de69ca33806b|5aa4ec6a-1f97-4133-988d-c9fed24d4ca2",
-        "silk_overlap|176282771|115170000|c85d20f8-8c54-431e-a355-3f548c7c791e|3c4e2945-869d-4e3d-9a8b-5a9de1056085"
+        "silk_edge_clearance|139795628|80076791|51dcca73-2e64-42f6-8ef9-056aa30af606|d377d74b-564d-4f8d-9994-9fc5be2a5474",
+        "silk_edge_clearance|165195628|130743208|ade66242-1d4a-4049-8c74-8409f4883229|2cc4061c-f2c8-4454-b9b5-9fff84069256"
       ],
       "meta": {
         "version": 2
@@ -84,7 +79,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "error",
+        "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
@@ -100,7 +95,7 @@
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "npth_inside_courtyard": "ignore",
-        "padstack": "error",
+        "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
@@ -122,12 +117,10 @@
         "zones_intersect": "error"
       },
       "rules": {
-        "allow_blind_buried_vias": false,
-        "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.1524,
+        "min_clearance": 0.0127,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.01,
+        "min_copper_edge_clearance": 0.5,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
@@ -138,8 +131,8 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.1524,
-        "min_via_annular_width": 0.05,
-        "min_via_diameter": 0.4,
+        "min_via_annular_width": 0.1,
+        "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -188,10 +181,10 @@
       ],
       "track_widths": [
         0.0,
+        0.1524,
         0.2286,
         0.3048,
-        0.381,
-        0.4572
+        0.381
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -223,10 +216,13 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.7,
+          "drill": 0.35
         }
       ],
-      "zones_allow_external_fillets": false,
-      "zones_use_no_outline": true
+      "zones_allow_external_fillets": false
     },
     "ipc2581": {
       "dist": "",
@@ -443,7 +439,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -453,20 +449,19 @@
       "wire_dangling": "error"
     }
   },
-  "legacy": [],
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "mcustm32f405.kicad_pro",
+    "filename": "sec01.kicad_pro",
     "version": 1
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1524,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -476,9 +471,9 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1524,
-        "via_diameter": 0.7,
-        "via_drill": 0.35,
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
@@ -494,8 +489,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "pos_files": "",
+      "plot": "rev_a/",
+      "pos_files": "rev_a/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -575,14 +570,14 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.25,
+      "label_size_ratio": 0.375,
       "operating_point_overlay_i_precision": 3,
       "operating_point_overlay_i_range": "~A",
       "operating_point_overlay_v_precision": 3,
       "operating_point_overlay_v_range": "~V",
       "overbar_offset_ratio": 1.23,
-      "pin_symbol_size": 0.0,
-      "text_offset_ratio": 0.08
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.15
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
@@ -590,18 +585,8 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "fix_passive_vals": false,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 0,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
-    "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -613,16 +598,16 @@
   },
   "sheets": [
     [
-      "2136cdd5-671e-48f9-bc34-e71a72a40a1d",
-      ""
+      "b7efe147-d4fe-4019-ae8d-d414c1357a75",
+      "Root"
     ]
   ],
   "text_variables": {
     "AUTHOR": "Lars Boegild Thomsen",
     "AUTHOR_EMAIL": "lth@stm32world.com",
     "COMPANY": "STM32World",
-    "REVISION": "b",
-    "TITLE": "MCUSTM32F405",
-    "URL": "https://stm32world.com/wiki/MCUSTM32F405"
+    "REVISION": "a",
+    "TITLE": "SEC01",
+    "URL": "https://stm32world.com/wiki/SEC01"
   }
 }
