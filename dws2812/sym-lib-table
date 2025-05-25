@@ -1,3 +1,5 @@
 (sym_lib_table
-  (lib (name stm32world)(type Legacy)(uri ${KIPRJMOD}/../lib/stm32world.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "stm32world")(type "Legacy")(uri "${KIPRJMOD}/../lib/stm32world.lib")(options "")(descr ""))
+  (lib (name "dws2812-rescue")(type "KiCad")(uri "${KIPRJMOD}/dws2812-rescue.kicad_sym")(options "")(descr ""))
 )
