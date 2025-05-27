@@ -10070,6 +10070,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 50.8) (xy 166.37 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abe2088e-6f40-4fb1-b17f-3e97e5f5c6a4")
+	)
+	(wire
+		(pts
 			(xy 247.65 123.19) (xy 237.49 123.19)
 		)
 		(stroke
