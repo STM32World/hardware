@@ -13882,7 +13882,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "B5819W"
 			(at 54.61 127.6096 0)
 			(effects
 				(font
@@ -13899,7 +13899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707605708554240"
 			(at 54.61 130.81 0)
 			(effects
 				(font
@@ -14021,7 +14021,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "TYPE-C-31-M-12"
 			(at 30.6578 126.3396 0)
 			(effects
 				(font
@@ -15489,7 +15489,7 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C72043"
+		(property "LCSC" "C19171301"
 			(at 142.24 163.83 0)
 			(effects
 				(font
@@ -15837,7 +15837,7 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C72041"
+		(property "LCSC" "C2288"
 			(at 156.21 163.83 0)
 			(effects
 				(font
@@ -18040,6 +18040,15 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 256KB flash, 64KB RAM, 84 MHz, 1.7-3.6V, 50 GPIO, LQFP64"
+			(at 184.15 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2915304"
 			(at 184.15 81.28 0)
 			(effects
 				(font
