@@ -1,0 +1,38 @@
+### Footprint positions - created on 2025-05-30T19:22:30+0800 ###
+### Printed by KiCad version 9.0.2+dfsg-1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                     Package                                         PosX       PosY       Rot  Side
+C1        C_10UF_0805             C_0805_2012Metric                            90.8050    29.8450  -90.0000  top
+C2        C_100NF_0603            C_0603_1608Metric                            53.3400    47.6250  180.0000  top
+C3        C_10UF_0805             C_0805_2012Metric                            79.3750    29.8450  -90.0000  top
+C4        C_1UF_0603              C_0603_1608Metric                            66.0400    31.7500    0.0000  top
+C5        C_100NF_0603            C_0603_1608Metric                            53.3400    49.5300  180.0000  top
+C6        C_100NF_0603            C_0603_1608Metric                            31.0750    27.9400    0.0000  top
+C7        C_100NF_0603            C_0603_1608Metric                            68.5800    47.6250    0.0000  top
+C8        C_100NF_0603            C_0603_1608Metric                            66.0400    33.6550    0.0000  top
+C9        C_100NF_0603            C_0603_1608Metric                            48.8950    36.8300  180.0000  top
+C10       C_100NF_0603            C_0603_1608Metric                            56.5150    33.0200  180.0000  top
+C11       C_20PF_0603             C_0603_1608Metric                            48.8250    47.6250    0.0000  top
+C13       C_20PF_0603             C_0603_1608Metric                            48.8950    41.2750  180.0000  top
+C14       C_2.2UF_0603            C_0603_1608Metric                            66.0400    29.8450    0.0000  top
+D1        PSM712                  SOT-23                                       86.6625    41.2750  180.0000  top
+D2        B5819W                  D_SOD-123                                    92.0750    33.6550    0.0000  top
+D3        LED_GREEN_0603          LED_0603_1608Metric                          24.7650    53.3400  180.0000  top
+D4        LED_BLUE_0603           LED_0603_1608Metric                          24.7650    51.4350  180.0000  top
+FB1       FB_0603                 L_0603_1608Metric                            48.8950    34.9250    0.0000  top
+J1        TYPE-C-31-M-12          USB_C_Receptacle_HRO_TYPE-C-31-M-12          94.6150    41.2750   90.0000  top
+J2        STM32WORLD_CONNECTOR_1  PinSocket_2x20_P2.54mm_Vertical_Stackable    36.1950    23.4950   90.0000  top
+J3        STM32WORLD_CONNECTOR_2  PinSocket_2x20_P2.54mm_Vertical_Stackable    84.4550    59.0550  -90.0000  top
+R1        R_5.1K_0603             R_0603_1608Metric                            86.3600    38.1000    0.0000  top
+R2        R_5.1K_0603             R_0603_1608Metric                            86.3600    44.4500    0.0000  top
+R3        R_10K_0603              R_0603_1608Metric                            31.1150    25.4000  180.0000  top
+R4        R_10K_0603              R_0603_1608Metric                            31.1150    32.3850    0.0000  top
+R5        R_220_0603              R_0603_1608Metric                            27.9400    53.3400    0.0000  top
+R6        R_220_0603              R_0603_1608Metric                            27.9400    51.4350    0.0000  top
+SW1       TS-1088R-02526          TS-1088R-02526                               26.0350    26.6700    0.0000  top
+SW2       TS-1088R-02526          TS-1088R-02526                               26.0350    32.3850  180.0000  top
+U1        AMS1117-3.3             SOT-223-3_TabPin2                            85.0900    31.1150  180.0000  top
+U2        STM32F401RCTx           LQFP-64_10x10mm_P0.5mm                       60.3250    41.2750    0.0000  top
+Y1        X_16MHZ                 Crystal_SMD_3225-4Pin_3.2x2.5mm              48.8950    44.4500  -90.0000  top
+## End
