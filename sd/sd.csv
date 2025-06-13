@@ -1,0 +1,4 @@
+"Reference","Qty","Value","Footprint","Datasheet","LCSC"
+"J1","1","Micro_SD_Card_Det2","Connector_Card:microSD_HC_Hirose_DM3D-SF","https://www.hirose.com/en/product/document?clcode=&productname=&series=DM3&documenttype=Catalog&lang=en&documentid=D49662_en","C719027"
+"J2","1","Conn_01x09","Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical","~",""
+"R1,R2,R3,R4,R5,R6","6","4k7","Resistor_SMD:R_0603_1608Metric","~","C23162"
