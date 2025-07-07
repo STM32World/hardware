@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -7.6 0)
+		(at 0 0 0)
 		(layer "F.SilkS")
 		(uuid "757edfda-49ad-4864-a41d-c3b2e67b33d4")
 		(effects
@@ -49,7 +49,7 @@
 			)
 		)
 	)
-	(attr through_hole)
+	(attr smd)
 	(fp_line
 		(start -28 -3.7)
 		(end -28 -3)
@@ -162,6 +162,46 @@
 		(layer "Cmts.User")
 		(uuid "db87676e-05a3-4580-aa29-abc649e8bd20")
 	)
+	(fp_line
+		(start -29.75 -4.75)
+		(end -29.75 5.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "11ef24fe-ae35-4218-b62b-e75fddf2cad2")
+	)
+	(fp_line
+		(start -29.75 -4.75)
+		(end 29.75 -4.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "17c5bfb4-9489-4e00-81b4-04eb299e749a")
+	)
+	(fp_line
+		(start 29.75 -4.75)
+		(end 29.75 5.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e0e05e2d-4546-4bb8-9e4b-d68425e9fa33")
+	)
+	(fp_line
+		(start 29.75 5.5)
+		(end -29.75 5.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5d1f9ff0-6604-4e26-a91a-acc41d0bc4ff")
+	)
 	(fp_circle
 		(center -29 -4.1)
 		(end -28.97 -4.1)
@@ -174,7 +214,7 @@
 		(uuid "a07bdad7-770d-422d-8cde-d706be23d297")
 	)
 	(fp_text user "A"
-		(at -26 0 0)
+		(at -26.5 -1.25 0)
 		(layer "F.SilkS")
 		(uuid "01ca31cd-a4f0-4c31-a156-0c890297af1a")
 		(effects
@@ -186,7 +226,7 @@
 		)
 	)
 	(fp_text user "B"
-		(at -25.87 2.45 0)
+		(at -26.75 1.25 0)
 		(layer "F.SilkS")
 		(uuid "ede8ead9-b30e-47d3-bf3c-a6561e17387b")
 		(effects
@@ -208,20 +248,18 @@
 			)
 		)
 	)
-	(pad "" thru_hole circle
+	(pad "" np_thru_hole circle
 		(at -13.35 0)
 		(size 1.2 1.2)
 		(drill 1.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(layers "F&B.Cu" "*.Mask")
 		(uuid "2f9c7baa-8391-49d8-acc6-d8ffb3158701")
 	)
-	(pad "" thru_hole circle
+	(pad "" np_thru_hole circle
 		(at 26.8 0)
 		(size 1.2 1.2)
 		(drill 1.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(layers "F&B.Cu" "*.Mask")
 		(uuid "3e979300-8308-4ff3-b852-d494d377b89e")
 	)
 	(pad "50" smd rect
