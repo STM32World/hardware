@@ -22664,10 +22664,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "14a2cd10-0fad-4fdd-a09c-81920b329d93")
 		(property "Reference" "J1"
-			(at 261.62 20.32 0)
+			(at 259.842 24.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22680,6 +22679,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x25_P2.54mm_Vertical"
@@ -24758,10 +24758,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a554c0ae-f14a-4470-83b8-2778154de932")
 		(property "Reference" "J2"
-			(at 261.62 90.17 0)
+			(at 259.842 94.234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24774,6 +24773,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x25_P2.54mm_Vertical"
