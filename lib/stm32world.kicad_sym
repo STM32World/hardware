@@ -16738,7 +16738,7 @@
 			(pin passive line
 				(at -7.62 0 0)
 				(length 2.54)
-				(name "A1"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -16756,7 +16756,7 @@
 			(pin passive line
 				(at -7.62 -2.54 0)
 				(length 2.54)
-				(name "A2"
+				(name "3.3V"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -16774,7 +16774,7 @@
 			(pin passive line
 				(at -7.62 -5.08 0)
 				(length 2.54)
-				(name "A3"
+				(name "5V"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -17602,7 +17602,7 @@
 			(pin passive line
 				(at -7.62 -121.92 0)
 				(length 2.54)
-				(name "A49"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -17620,7 +17620,7 @@
 			(pin passive line
 				(at 7.62 0 180)
 				(length 2.54)
-				(name "B1"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -17638,7 +17638,7 @@
 			(pin passive line
 				(at 7.62 -2.54 180)
 				(length 2.54)
-				(name "B2"
+				(name "3.3V"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -17656,7 +17656,7 @@
 			(pin passive line
 				(at 7.62 -5.08 180)
 				(length 2.54)
-				(name "B3"
+				(name "5V"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -18484,7 +18484,7 @@
 			(pin passive line
 				(at 7.62 -121.92 180)
 				(length 2.54)
-				(name "B49"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)

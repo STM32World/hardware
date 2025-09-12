@@ -19936,10 +19936,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "33921858-a9a6-47d9-a9b8-9d65fc2fbcd2")
 		(property "Reference" "J1"
-			(at 386.08 30.4799 0)
+			(at 374.65 23.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
