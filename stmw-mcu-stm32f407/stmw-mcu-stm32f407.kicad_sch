@@ -4,6 +4,14 @@
 	(generator_version "9.0")
 	(uuid "a2bbec60-ecf6-4da0-b0d6-da34253985fb")
 	(paper "A3")
+	(title_block
+		(title "${TITLE}")
+		(rev "${REVISION}")
+		(company "${COMPANY}")
+		(comment 1 "${URL}")
+		(comment 2 "${AUTHOR}")
+		(comment 3 "${AUTHOR_EMAIL}")
+	)
 	(lib_symbols
 		(symbol "Device:D_Schottky"
 			(pin_numbers
@@ -5709,7 +5717,7 @@
 				(pin passive line
 					(at -8.89 -5.08 0)
 					(length 2.54)
-					(name "U1"
+					(name "VBAT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5853,7 +5861,7 @@
 				(pin passive line
 					(at -8.89 -25.4 0)
 					(length 2.54)
-					(name "PC14"
+					(name "PC15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5871,7 +5879,7 @@
 				(pin passive line
 					(at -8.89 -27.94 0)
 					(length 2.54)
-					(name "U3"
+					(name "PC14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6015,14 +6023,14 @@
 				(pin passive line
 					(at -8.89 -48.26 0)
 					(length 2.54)
-					(name "A20"
+					(name "PE1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "PE1"
+					(number "A20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6130,7 +6138,7 @@
 							)
 						)
 					)
-					(number "PB5"
+					(number "A26"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6159,14 +6167,14 @@
 				(pin passive line
 					(at -8.89 -68.58 0)
 					(length 2.54)
-					(name "A28"
+					(name "PB4"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "PB4"
+					(number "A28"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6591,7 +6599,7 @@
 				(pin passive line
 					(at 8.89 -5.08 180)
 					(length 2.54)
-					(name "U2"
+					(name "VA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13052,6 +13060,28 @@
 			)
 		)
 	)
+	(global_label "PC15"
+		(shape passive)
+		(at 344.17 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "08f81987-99e7-42ab-a460-da8c963329dd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 337.3371 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PE5"
 		(shape passive)
 		(at 344.17 73.66 180)
@@ -13114,28 +13144,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "U1"
-		(shape passive)
-		(at 344.17 43.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "101bed8a-c880-438c-9c56-893895bf2d07")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 339.7561 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -13318,7 +13326,7 @@
 	)
 	(global_label "PC14"
 		(shape passive)
-		(at 344.17 63.5 180)
+		(at 344.17 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13328,7 +13336,7 @@
 		)
 		(uuid "1958fe48-39ad-4f3f-b30c-7c3277059af0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 337.3371 63.5 0)
+			(at 337.3371 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14099,28 +14107,6 @@
 		(uuid "470a61ab-006f-4a66-b7d1-718d2f8f057c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 338.5466 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "U3"
-		(shape passive)
-		(at 344.17 66.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "474a3ef3-56bc-426b-9591-9478c09ff8ae")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 339.7561 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15315,6 +15301,28 @@
 			)
 		)
 	)
+	(global_label "VA"
+		(shape input)
+		(at 388.62 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "95cc8e95-a2e6-4a6a-ae98-ba00af1edeb8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 393.7824 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "HNRST"
 		(shape input)
 		(at 104.14 260.35 0)
@@ -16457,28 +16465,6 @@
 			)
 		)
 	)
-	(global_label "U2"
-		(shape passive)
-		(at 388.62 43.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e228e350-2237-4890-95da-cabdc882ee63")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 393.0339 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PB10"
 		(shape passive)
 		(at 289.56 106.68 0)
@@ -16580,6 +16566,28 @@
 		(uuid "e5ec9b04-5b87-4d1f-a018-7334e3d736da")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 225.6376 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBAT"
+		(shape input)
+		(at 344.17 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e6553a16-92fd-4171-b144-72c467942aba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 336.77 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20861,7 +20869,7 @@
 		(pin "A19"
 			(uuid "a62054a9-035f-406b-8582-0dd28f8126fe")
 		)
-		(pin "PE1"
+		(pin "A20"
 			(uuid "65b4dd67-487a-4c94-83c4-521511ea61c6")
 		)
 		(pin "A44"
@@ -20954,7 +20962,7 @@
 		(pin "A41"
 			(uuid "da613f3e-4e97-46b1-83b9-4e59085aefad")
 		)
-		(pin "PB5"
+		(pin "A28"
 			(uuid "3a7c8972-9af2-4409-9279-d505befd1536")
 		)
 		(pin "A30"
@@ -21035,7 +21043,7 @@
 		(pin "A43"
 			(uuid "7f1085ac-a82d-4e51-952c-02e857d7603a")
 		)
-		(pin "PB4"
+		(pin "A26"
 			(uuid "0aeea78e-f24f-4d70-a2f9-5e7e46c54707")
 		)
 		(pin "B24"

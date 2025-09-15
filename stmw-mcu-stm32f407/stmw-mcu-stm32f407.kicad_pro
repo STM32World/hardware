@@ -662,5 +662,13 @@
       "Root"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "AUTHOR": "Lars Boegild Thomsen",
+    "AUTHOR_EMAIL": "lth@stm32world.com",
+    "COMPANY": "STM32World",
+    "REVISION": "a",
+    "TITLE": "stmw-mcu-stm32f407",
+    "URL": "https://stm32world.com/wiki/STMW-MCU-STM32F407",
+    "YEAR": "2025"
+  }
 }

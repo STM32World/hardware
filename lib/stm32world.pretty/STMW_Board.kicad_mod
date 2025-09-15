@@ -319,6 +319,32 @@
 		(layer "F.CrtYd")
 		(uuid "72d8ab2f-ec3c-44ee-bc73-62b6ebe416df")
 	)
+	(fp_text user "${TITLE}"
+		(at -8.89 -5.715 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8e204a8f-c0f2-42cc-addc-be49f95c481b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${TITLE}, rev. ${REVISION}"
+		(at -8.255 -5.715 90)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "a2d9e5e5-7a5b-4a3a-b107-8e4fe4344ef7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify right bottom mirror)
+		)
+	)
 	(fp_text user "PCB Thickness 1.57 mm"
 		(at 5 2.8 180)
 		(layer "Cmts.User")
