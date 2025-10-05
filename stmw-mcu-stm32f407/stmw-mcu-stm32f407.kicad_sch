@@ -2768,89 +2768,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Power_Protection:SP0502BAHT"
 			(pin_names
 				(hide yes)
@@ -6005,7 +5922,7 @@
 				(pin passive line
 					(at -8.89 -45.72 0)
 					(length 2.54)
-					(name "U4"
+					(name "U1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6149,7 +6066,7 @@
 				(pin passive line
 					(at -8.89 -66.04 0)
 					(length 2.54)
-					(name "U6"
+					(name "U3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6347,7 +6264,7 @@
 				(pin passive line
 					(at -8.89 -93.98 0)
 					(length 2.54)
-					(name "U8"
+					(name "U5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6887,7 +6804,7 @@
 				(pin passive line
 					(at 8.89 -45.72 180)
 					(length 2.54)
-					(name "U5"
+					(name "U2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7031,7 +6948,7 @@
 				(pin passive line
 					(at 8.89 -66.04 180)
 					(length 2.54)
-					(name "U7"
+					(name "U4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7229,7 +7146,7 @@
 				(pin passive line
 					(at 8.89 -93.98 180)
 					(length 2.54)
-					(name "U9"
+					(name "U6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13346,7 +13263,7 @@
 			)
 		)
 	)
-	(global_label "U9"
+	(global_label "U6"
 		(shape passive)
 		(at 388.62 132.08 0)
 		(fields_autoplaced yes)
@@ -13368,7 +13285,7 @@
 			)
 		)
 	)
-	(global_label "U8"
+	(global_label "U5"
 		(shape passive)
 		(at 344.17 132.08 180)
 		(fields_autoplaced yes)
@@ -13654,7 +13571,7 @@
 			)
 		)
 	)
-	(global_label "U4"
+	(global_label "U1"
 		(shape passive)
 		(at 344.17 83.82 180)
 		(fields_autoplaced yes)
@@ -13984,7 +13901,7 @@
 			)
 		)
 	)
-	(global_label "U6"
+	(global_label "U3"
 		(shape passive)
 		(at 344.17 104.14 180)
 		(fields_autoplaced yes)
@@ -14775,7 +14692,7 @@
 			)
 		)
 	)
-	(global_label "U7"
+	(global_label "U4"
 		(shape passive)
 		(at 388.62 104.14 0)
 		(fields_autoplaced yes)
@@ -16881,7 +16798,7 @@
 			)
 		)
 	)
-	(global_label "U5"
+	(global_label "U2"
 		(shape passive)
 		(at 388.62 83.82 0)
 		(fields_autoplaced yes)
@@ -18833,13 +18750,12 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED_GREEN_0603"
-			(at 147.32 248.92 0)
+		(property "Value" "GR"
+			(at 152.654 257.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
@@ -18866,6 +18782,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Display" "Green"
@@ -18875,9 +18792,10 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "LCSC" "C19171301"
+		(property "LCSC" "C118334"
 			(at 142.24 254 0)
 			(effects
 				(font
@@ -19182,13 +19100,12 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED_BLUE_0603"
-			(at 161.29 248.92 0)
+		(property "Value" "BL"
+			(at 166.624 257.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
@@ -19215,6 +19132,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Display" "Blue"
@@ -19224,9 +19142,10 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "LCSC" "C2288"
+		(property "LCSC" "C84266"
 			(at 156.21 254 0)
 			(effects
 				(font
@@ -20227,7 +20146,7 @@
 		(at 125.73 259.08 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "0c10f4fa-aca9-49f8-b683-9c087c5f02e0")
@@ -20579,7 +20498,7 @@
 		(at 97.79 260.35 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "2d5c2fc5-e50a-4778-a337-6da8ed18ea39")
@@ -21221,70 +21140,6 @@
 			(project "stmw-mcu-stm32f405"
 				(path "/a2bbec60-ecf6-4da0-b0d6-da34253985fb"
 					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 292.1 273.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "3511ca8e-826b-464d-9976-c03d220d452b")
-		(property "Reference" "H1"
-			(at 294.64 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 294.64 274.3199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 292.1 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 292.1 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 292.1 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/a2bbec60-ecf6-4da0-b0d6-da34253985fb"
-					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -23315,70 +23170,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 292.1 278.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "ebe0daf4-ebb5-47ed-b832-1392a19a32b8")
-		(property "Reference" "H2"
-			(at 294.64 278.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 294.64 279.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 292.1 278.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 292.1 278.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 292.1 278.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "stmw-mcu-stm32f405"
-				(path "/a2bbec60-ecf6-4da0-b0d6-da34253985fb"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 83.82 68.58 180)
 		(unit 1)
@@ -23581,9 +23372,9 @@
 		(at 29.21 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "fd79e2df-069d-4257-8827-98b5ce0e9651")
 		(property "Reference" "JP1"
 			(at 29.21 66.04 0)
@@ -23736,9 +23527,9 @@
 		(at 77.47 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ff0e4973-8f6f-4dc5-92e5-8b2680359f22")
 		(property "Reference" "JP2"
 			(at 77.47 66.04 0)

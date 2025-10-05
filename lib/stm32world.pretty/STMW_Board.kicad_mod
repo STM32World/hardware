@@ -55,8 +55,8 @@
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
 	(fp_line
-		(start -15 -22.5)
-		(end 65 -22.5)
+		(start -12 -26.5)
+		(end 61.5 -26.5)
 		(stroke
 			(width 0.1)
 			(type dash)
@@ -65,7 +65,7 @@
 		(uuid "0733f061-ecbd-435f-a5c3-a766b17a6eb5")
 	)
 	(fp_line
-		(start 24.5 -44.5)
+		(start 24.5 -49)
 		(end 24.5 7.5)
 		(stroke
 			(width 0.1)
@@ -76,7 +76,7 @@
 	)
 	(fp_line
 		(start -10.5 -5.5)
-		(end -10.5 -39.5)
+		(end -10.5 -47.500001)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -85,8 +85,8 @@
 		(uuid "5efedae6-16d6-41bd-a12a-3636434f624f")
 	)
 	(fp_line
-		(start -10 -40)
-		(end 59 -40)
+		(start -10 -48)
+		(end 59 -48)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -215,7 +215,7 @@
 		(uuid "bfa94328-77d5-4026-b6c7-42b5778d3ecd")
 	)
 	(fp_line
-		(start 59.5 -39.5)
+		(start 59.5 -47.5)
 		(end 59.5 -5.5)
 		(stroke
 			(width 0.05)
@@ -225,9 +225,9 @@
 		(uuid "86614b7b-60c2-475b-bd44-48b3210b7f91")
 	)
 	(fp_arc
-		(start -10.500001 -39.500001)
-		(mid -10.353554 -39.853554)
-		(end -10.000001 -40.000001)
+		(start -10.500002 -47.500002)
+		(mid -10.353555 -47.853555)
+		(end -10.000002 -48.000002)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -258,9 +258,9 @@
 		(uuid "8ebdc582-6961-4fcc-b527-27ebd85aaff8")
 	)
 	(fp_arc
-		(start 59 -40)
-		(mid 59.353553 -39.853553)
-		(end 59.5 -39.5)
+		(start 59 -48)
+		(mid 59.353553 -47.853553)
+		(end 59.5 -47.5)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -345,6 +345,20 @@
 			(justify right bottom mirror)
 		)
 	)
+	(fp_text user "JLCJLCJLCJLC"
+		(at 58.5 -6 90)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "c7709887-0803-4a4a-9cc0-713c93955504")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify right bottom mirror)
+		)
+	)
 	(fp_text user "PCB Thickness 1.57 mm"
 		(at 5 2.8 180)
 		(layer "Cmts.User")
@@ -407,6 +421,43 @@
 	(dimension
 		(type orthogonal)
 		(layer "Dwgs.User")
+		(uuid "18e5998b-1813-4a25-9aa0-72fb7ad21df3")
+		(pts
+			(xy -0.15 3.45) (xy -10 -48)
+		)
+		(height -15.35)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "51.4500 mm"
+			(at -16.65 -22.275 90)
+			(layer "Dwgs.User")
+			(uuid "18e5998b-1813-4a25-9aa0-72fb7ad21df3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
 		(uuid "427044a8-c392-46c0-8056-72ba30002ade")
 		(pts
 			(xy -10.5 -5.5) (xy -0.65 -5)
@@ -446,9 +497,9 @@
 		(layer "Dwgs.User")
 		(uuid "71ab40d9-d498-4e4e-a586-bd3e4545ec35")
 		(pts
-			(xy -10.5 -39.5) (xy 59.5 -39.5)
+			(xy -10.500002 -47) (xy 59.5 -47.5)
 		)
-		(height -2.5)
+		(height -3)
 		(orientation 0)
 		(format
 			(prefix "")
@@ -467,7 +518,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "70.0000 mm"
-			(at 24.5 -43.15 0)
+			(at 24.499999 -51.15 0)
 			(layer "Dwgs.User")
 			(uuid "71ab40d9-d498-4e4e-a586-bd3e4545ec35")
 			(effects
@@ -483,9 +534,9 @@
 		(layer "Dwgs.User")
 		(uuid "8b9ce8b0-691c-42ae-a82e-f0f96af7dca8")
 		(pts
-			(xy -10 -5) (xy -10.000001 -40.000001)
+			(xy -10 -5) (xy -10 -48)
 		)
-		(height -7.5)
+		(height -3)
 		(orientation 1)
 		(format
 			(prefix "")
@@ -503,8 +554,8 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "35.0000 mm"
-			(at -18.65 -22.500001 90)
+		(gr_text "43.0000 mm"
+			(at -14.15 -26.5 90)
 			(layer "Dwgs.User")
 			(uuid "8b9ce8b0-691c-42ae-a82e-f0f96af7dca8")
 			(effects
@@ -514,6 +565,20 @@
 				)
 			)
 		)
+	)
+	(pad "" np_thru_hole circle
+		(at -7.5 -45 180)
+		(size 3 3)
+		(drill 3)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "93f052be-bdc8-4e91-b19b-fced7bb97c81")
+	)
+	(pad "" np_thru_hole circle
+		(at 56.5 -45 180)
+		(size 3 3)
+		(drill 3)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "9276a2c8-2fe6-4b23-8a5e-9979063a6192")
 	)
 	(pad "A1" connect rect
 		(at 0 0)
